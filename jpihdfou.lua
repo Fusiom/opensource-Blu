@@ -376,7 +376,7 @@ local function CFMPVC_fake_script() -- Main2.oillock
 		placemarker.CanCollide = false
 		placemarker.Size = Vector3.new(0.1, 0.1, 0.1)
 		placemarker.Transparency = 10
-		makemarker(placemarker, placemarker, Color3.fromRGB(255, 255, 0), 0.55, 0)
+		makemarker(placemarker, placemarker, Color3.fromRGB(226, 36, 195), 0.55, 0)
 	end)    
 	
 	mouse.KeyDown:Connect(function(k)
