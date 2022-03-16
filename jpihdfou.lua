@@ -3,8 +3,8 @@ local player = {
 	
 }
 
-while true do
-  if game.Players.LocalPlayer.UserId ~= unpack(player) then continue end
+if game.Players.LocalPlayer.UserId ~= unpack(player) then
+	game.Players.LocalPlayer:Kick("Not Whitelisted")
 end
 
 --code
