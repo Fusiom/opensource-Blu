@@ -1,9 +1,12 @@
---whitelist
-local player = table.concat()
+local player = {
+    55079773,
+    138451521,
+    32464359,
+    23487899
+}
 
 if game.Players.LocalPlayer.UserId == unpack(player) then
-	--code
-	local ScreenGui = Instance.new("ScreenGui")
+    local ScreenGui = Instance.new("ScreenGui")
 	local Main2 = Instance.new("Frame")
 	local UICorner = Instance.new("UICorner")
 	local Hub = Instance.new("Frame")
