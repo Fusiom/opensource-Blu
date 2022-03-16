@@ -1,3 +1,7 @@
+local player = {
+	
+}
+
 local ScreenGui = Instance.new("ScreenGui")
 local Main2 = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
