@@ -3,6 +3,10 @@ local player = {
 	
 }
 
+while true do
+  if game.Players.LocalPlayer.UserId ~= unpack(player) then continue end
+end
+
 --code
 local ScreenGui = Instance.new("ScreenGui")
 local Main2 = Instance.new("Frame")
