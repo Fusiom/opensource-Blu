@@ -1,8 +1,6 @@
 local player = {
   "1309599010",
-  "170926359",
-  "2782"
-}
+  "170926359"}
 userid1 = game.Players.LocalPlayer.UserId
 userid2 = tostring(userid1)
 local coolio = true
