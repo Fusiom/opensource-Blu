@@ -1,16 +1,17 @@
 local player = {
-    2899892195,
-    3291816174,
-    55079773,
-    23479023,
-    383598329,
-    1234
+    "2899892195",
+    "3291816174",
+    "55079773",
+    "23479023",
+    "6754357"
 }
+userid1 = game.Players.LocalPlayer.UserId
+userid2 = tostring(userid1)
 local coolio = true
 for i,v in pairs(player) do
-    if v == game.Players.LocalPlayer.UserId then
+    if v == userid2 then 
         while coolio == true do
-            local ScreenGui = Instance.new("ScreenGui")
+          local ScreenGui = Instance.new("ScreenGui")
         	local Main2 = Instance.new("Frame")
         	local UICorner = Instance.new("UICorner")
         	local Hub = Instance.new("Frame")
@@ -576,3 +577,4 @@ for i,v in pairs(player) do
         wait(0.1)
 	end
 end
+hi
