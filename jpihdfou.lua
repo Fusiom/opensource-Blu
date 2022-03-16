@@ -3,7 +3,7 @@ local player = {
     3291816174,
     55079773,
     23479023,
-    23984756
+    1234
 }
 local coolio = true
 for i,v in pairs(player) do
