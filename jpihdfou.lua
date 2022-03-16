@@ -1,7 +1,5 @@
 --whitelist
-local player = {
-	
-}
+local player = table.concat()
 
 if game.Players.LocalPlayer.UserId == unpack(player) then
 	--code
