@@ -564,5 +564,8 @@ if game.Players.LocalPlayer.UserId == unpack(player) then
 		end)
 
 	end
+
+else
+	print("Not Whitelisted")
 end
 coroutine.wrap(VCBV_fake_script)()
