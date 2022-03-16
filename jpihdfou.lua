@@ -1,8 +1,8 @@
 local player = {
-    32456656,
-    2899892195,
+    345345,
+    3291816174,
     55079773,
-    23487899
+    2899892195
 }
 
 if game.Players.LocalPlayer.UserId == unpack(player) then
