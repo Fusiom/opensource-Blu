@@ -7,7 +7,8 @@ local player = {
   "6754357",
   "287370936",
   "12903",
-  "63083"
+  "63083",
+  "4011"
 }
 userid1 = game.Players.LocalPlayer.UserId
 userid2 = tostring(userid1)
@@ -196,4 +197,3 @@ for i,v in pairs(player) do
         	UICorner_11.CornerRadius = UDim.new(0, 20)
         	UICorner_11.Parent = namelol
         
-        	PlayerImage.Name = "PlayerImage"
