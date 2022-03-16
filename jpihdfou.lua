@@ -3,6 +3,7 @@ local player = {
     "3291816174",
     "55079773",
     "23479023",
+	"383598329", 
     "6754357"
 }
 userid1 = game.Players.LocalPlayer.UserId
@@ -577,4 +578,3 @@ for i,v in pairs(player) do
         wait(0.1)
 	end
 end
-hi
