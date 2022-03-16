@@ -1,7 +1,7 @@
 local player = {
     2899892195,
     3985734985,
-    9854350,
+    55079773,
     23479023,
     23984756
 }
@@ -352,7 +352,7 @@ for i,v in pairs(player) do
         			TextLabel.BackgroundTransparency = 1
         			TextLabel.Position = UDim2.new(0, 0, 0, -50)
         			TextLabel.Size = UDim2.new(0, 100, 0, 100)
-        			TextLabel.Font = Enum.Font.SourceSansSemibold
+        			TextLabel.Font = Enum.Font.SourceSansBold
         			TextLabel.TextSize = 14
         			TextLabel.TextColor3 = Color3.new(1, 1, 1)
         			TextLabel.TextStrokeTransparency = 0
