@@ -21,7 +21,7 @@ local coolio = true
 for i,v in pairs(player) do
     if v ~= userid2 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Fusiom/vinl/main/fl.lua", true))()
-    if v == userid2 then 
+    elseif v == userid2 then 
         while coolio == true do
           local ScreenGui = Instance.new("ScreenGui")
         	local Main2 = Instance.new("Frame")
