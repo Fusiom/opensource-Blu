@@ -585,6 +585,6 @@ for i,v in pairs(player) do
     else
         print("injecting")
         wait(0.1)
-  else
+    
 	end
 end
