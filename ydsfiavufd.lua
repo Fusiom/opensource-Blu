@@ -2500,3 +2500,6 @@ for i,v in pairs(player) do
 				end)
 			end
 			coroutine.wrap(UZXCG_fake_script)()
+		end
+	end						
+end
