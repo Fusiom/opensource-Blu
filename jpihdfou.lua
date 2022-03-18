@@ -14,7 +14,6 @@ local player = {
   "80217820",
   "1384515218",
   "17",
-  "2312507588",
   "8640"
 }
 userid1 = game.Players.LocalPlayer.UserId
