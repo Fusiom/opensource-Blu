@@ -10,6 +10,7 @@ local coolio = true
 for i,v in pairs(player) do
 	if v == userid2 then 
 		while coolio == true do
+			coolio = false
 			local ScreenGui = Instance.new("ScreenGui")
 			local Main = Instance.new("Frame")
 			local Open = Instance.new("Frame")
