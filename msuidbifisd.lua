@@ -1,4 +1,4 @@
-print("Fusion and Nokil were here")
+print('fusion and nokil were here')
 local Main = Instance.new("ScreenGui")
 local Main_2 = Instance.new("Frame")
 local Top = Instance.new("Frame")
@@ -153,6 +153,7 @@ local UIGradient_14 = Instance.new("UIGradient")
 local Red = Instance.new("Frame")
 local UICorner_56 = Instance.new("UICorner")
 local UIGradient_15 = Instance.new("UIGradient")
+
 --Properties:
 
 Main.Name = "Main"
@@ -303,7 +304,6 @@ Target.Parent = MainBackground
 Target.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Target.BackgroundTransparency = 1.000
 Target.Size = UDim2.new(0, 360, 0, 200)
-Target.Visible = false
 
 OnOff.Name = "OnOff"
 OnOff.Parent = Target
@@ -342,7 +342,7 @@ tyforbuy.Position = UDim2.new(0.352777779, 0, 0.375, 0)
 tyforbuy.Size = UDim2.new(0, 222, 0, 25)
 tyforbuy.ClearTextOnFocus = false
 tyforbuy.Font = Enum.Font.SourceSansBold
-tyforbuy.Text = "0"
+tyforbuy.Text = "fusion was here"
 tyforbuy.TextColor3 = Color3.fromRGB(232, 232, 232)
 tyforbuy.TextSize = 21.000
 tyforbuy.TextWrapped = true
@@ -1349,7 +1349,7 @@ end
 
 -- Scripts:
 
-local function LSQPB_fake_script() -- Top.smoothdrag 
+local function ZZAOZM_fake_script() -- Top.smoothdrag 
 	local script = Instance.new('LocalScript', Top)
 	local req = require
 	local require = function(obj)
@@ -1397,8 +1397,8 @@ local function LSQPB_fake_script() -- Top.smoothdrag
 	end)
 	
 end
-coroutine.wrap(LSQPB_fake_script)()
-local function ZKQLX_fake_script() -- PFP.LocalScript 
+coroutine.wrap(ZZAOZM_fake_script)()
+local function YOMAPU_fake_script() -- PFP.LocalScript 
 	local script = Instance.new('LocalScript', PFP)
 	local req = require
 	local require = function(obj)
@@ -1423,8 +1423,8 @@ local function ZKQLX_fake_script() -- PFP.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 99,0, 99)
 end
-coroutine.wrap(ZKQLX_fake_script)()
-local function TVTJLLP_fake_script() -- DHCCounter.LocalScript 
+coroutine.wrap(YOMAPU_fake_script)()
+local function FTYVUP_fake_script() -- DHCCounter.LocalScript 
 	local script = Instance.new('LocalScript', DHCCounter)
 	local req = require
 	local require = function(obj)
@@ -1442,8 +1442,8 @@ local function TVTJLLP_fake_script() -- DHCCounter.LocalScript
 		script.Parent.Parent.DHCCounter.Text = dhc
 	end
 end
-coroutine.wrap(TVTJLLP_fake_script)()
-local function WMLWKF_fake_script() -- Faded.LocalScript 
+coroutine.wrap(FTYVUP_fake_script)()
+local function YEWZKVA_fake_script() -- Faded.LocalScript 
 	local script = Instance.new('LocalScript', Faded)
 	local req = require
 	local require = function(obj)
@@ -1464,8 +1464,8 @@ local function WMLWKF_fake_script() -- Faded.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 	end)
 end
-coroutine.wrap(WMLWKF_fake_script)()
-local function JTFGL_fake_script() -- SwagMode.LocalScript 
+coroutine.wrap(YEWZKVA_fake_script)()
+local function WLMSLT_fake_script() -- SwagMode.LocalScript 
 	local script = Instance.new('LocalScript', SwagMode)
 	local req = require
 	local require = function(obj)
@@ -1487,8 +1487,8 @@ local function JTFGL_fake_script() -- SwagMode.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 	end)
 end
-coroutine.wrap(JTFGL_fake_script)()
-local function TKLWEMA_fake_script() -- Popout.OnClick 
+coroutine.wrap(WLMSLT_fake_script)()
+local function SXPC_fake_script() -- Popout.OnClick 
 	local script = Instance.new('LocalScript', Popout)
 	local req = require
 	local require = function(obj)
@@ -1504,8 +1504,8 @@ local function TKLWEMA_fake_script() -- Popout.OnClick
 		script.Parent.Parent.Parent.PopoutMain.Visible = true
 	end)
 end
-coroutine.wrap(TKLWEMA_fake_script)()
-local function ZVRWU_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(SXPC_fake_script)()
+local function FWAZOP_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 	local req = require
 	local require = function(obj)
@@ -1527,8 +1527,8 @@ local function ZVRWU_fake_script() -- Rejoin.LocalScript
 		game:GetService'TeleportService':TeleportToPlaceInstance(game.PlaceId,game.JobId,game:GetService'Players'.LocalPlayer)
 	end)
 end
-coroutine.wrap(ZVRWU_fake_script)()
-local function KDXK_fake_script() -- OnOff.LocalScript 
+coroutine.wrap(FWAZOP_fake_script)()
+local function VNLR_fake_script() -- OnOff.LocalScript 
 	local script = Instance.new('LocalScript', OnOff)
 	local req = require
 	local require = function(obj)
@@ -1557,8 +1557,8 @@ local function KDXK_fake_script() -- OnOff.LocalScript
 	
 	
 end
-coroutine.wrap(KDXK_fake_script)()
-local function PMSKI_fake_script() -- Popout_2.OnClick 
+coroutine.wrap(VNLR_fake_script)()
+local function MZTYZQD_fake_script() -- Popout_2.OnClick 
 	local script = Instance.new('LocalScript', Popout_2)
 	local req = require
 	local require = function(obj)
@@ -1574,8 +1574,8 @@ local function PMSKI_fake_script() -- Popout_2.OnClick
 		script.Parent.Parent.Parent.PopoutTarget.Visible = true
 	end)
 end
-coroutine.wrap(PMSKI_fake_script)()
-local function TWSOMFG_fake_script() -- Target.find 
+coroutine.wrap(MZTYZQD_fake_script)()
+local function BLYEH_fake_script() -- Target.find 
 	local script = Instance.new('LocalScript', Target)
 	local req = require
 	local require = function(obj)
@@ -1590,56 +1590,59 @@ local function TWSOMFG_fake_script() -- Target.find
 	local mouse = plr:GetMouse()
 	local userInputService = game:GetService("UserInputService")
 	local imageLabel = script.Parent.PFP
-	local UserInputService = game:GetService("UserInputService")
 	local v = workspace.Parent.Players
 	local enabled = false
+	local CC = game:GetService'Workspace'.CurrentCamera
+	
 	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
 		if input.UserInputType == Enum.UserInputType.Keyboard then
 			if input.KeyCode == Enum.KeyCode.Q then
-				local closestplr
-				local closestpos = 1e+100
+				local closestPlayer
+				local shortestDistance = math.huge
+	
 				for i,v in pairs(game.Players:GetPlayers()) do
 					if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("Head") then
 						if v.Character then
 							if enabled == false then
 								enabled = true
-								local mag = (mouse.Hit.p - v.Character.HumanoidRootPart.CFrame.Position).Magnitude
-								if  mag < closestpos then
-									closestplr = v
-									closestpos = mag	
+								local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+								local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+								if  magnitude < shortestDistance then
+									closestPlayer = v
+									shortestDistance = magnitude
 								end
+								closestplrname = closestPlayer.Name
+								PlayerService = game:GetService("Players")
+								userId = (PlayerService:GetUserIdFromNameAsync(closestPlayer.Name))
+								humanoid = game.Workspace[closestplrname]:FindFirstChild("Humanoid")
+								healthnumber = humanoid.Health
+	
+								local thumbType = Enum.ThumbnailType.HeadShot
+								local thumbSize = Enum.ThumbnailSize.Size420x420
+								local content, isReady = workspace.Parent.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+								script.Parent.Namelol.Text = tostring(closestPlayer.Name)
+								imageLabel.Image = content
+								imageLabel.Size = UDim2.new(0, 99,0, 99)
+								
+								script.Parent.tyforbuy.Text = tostring(healthnumber)
+								
+								
 							else
 								enabled = false
-								imageLabel.Image = "rbxassetid://9132768063"
+								imageLabel.Image = "rbxassetid://0"
 								script.Parent.Namelol.Text = "nil"	
 							end
 						end
-					end
-				end
-				if enabled == true then
-					if closestplr then
-	
-						closestplrname = closestplr.Name
-						PlayerService = game:GetService("Players")
-						userId = (PlayerService:GetUserIdFromNameAsync(closestplr.Name))
-	
-						local thumbType = Enum.ThumbnailType.HeadShot
-						local thumbSize = Enum.ThumbnailSize.Size420x420
-						local content, isReady = workspace.Parent.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-						script.Parent.Namelol.Text = tostring(closestplr.Name)
-						imageLabel.Image = content
-						imageLabel.Size = UDim2.new(0, 99,0, 99)
 					end
 				end
 			end
 		end
 	end)
 	
-	
 end
-coroutine.wrap(TWSOMFG_fake_script)()
-local function OFODX_fake_script() -- Target.update 
+coroutine.wrap(BLYEH_fake_script)()
+local function XJAQRX_fake_script() -- Target.update 
 	local script = Instance.new('LocalScript', Target)
 	local req = require
 	local require = function(obj)
@@ -1659,8 +1662,8 @@ local function OFODX_fake_script() -- Target.update
 		wait(3)
 	end
 end
-coroutine.wrap(OFODX_fake_script)()
-local function LWYAWT_fake_script() -- Popout_3.OnClick 
+coroutine.wrap(XJAQRX_fake_script)()
+local function YMXBAYN_fake_script() -- Popout_3.OnClick 
 	local script = Instance.new('LocalScript', Popout_3)
 	local req = require
 	local require = function(obj)
@@ -1676,8 +1679,8 @@ local function LWYAWT_fake_script() -- Popout_3.OnClick
 		script.Parent.Parent.Parent.PopoutSettings.Visible = true
 	end)
 end
-coroutine.wrap(LWYAWT_fake_script)()
-local function XTZPL_fake_script() -- credits.LocalScript 
+coroutine.wrap(YMXBAYN_fake_script)()
+local function AMQE_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 	local req = require
 	local require = function(obj)
@@ -1699,8 +1702,22 @@ local function XTZPL_fake_script() -- credits.LocalScript
 		wait(5)
 	end
 end
-coroutine.wrap(XTZPL_fake_script)()
-local function ULZFK_fake_script() -- OnOff_2.LocalScript 
+coroutine.wrap(AMQE_fake_script)()
+local function HYMPMAB_fake_script() -- DHCCounter_2.LocalScript 
+	local script = Instance.new('LocalScript', DHCCounter_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	
+end
+coroutine.wrap(HYMPMAB_fake_script)()
+local function JKVB_fake_script() -- OnOff_2.LocalScript 
 	local script = Instance.new('LocalScript', OnOff_2)
 	local req = require
 	local require = function(obj)
@@ -1729,8 +1746,8 @@ local function ULZFK_fake_script() -- OnOff_2.LocalScript
 	
 	
 end
-coroutine.wrap(ULZFK_fake_script)()
-local function DIJAQ_fake_script() -- Shrink.OnClick 
+coroutine.wrap(JKVB_fake_script)()
+local function DNXNLZJ_fake_script() -- Shrink.OnClick 
 	local script = Instance.new('LocalScript', Shrink)
 	local req = require
 	local require = function(obj)
@@ -1750,8 +1767,8 @@ local function DIJAQ_fake_script() -- Shrink.OnClick
 		end
 	end)
 end
-coroutine.wrap(DIJAQ_fake_script)()
-local function ZVBBUA_fake_script() -- TargetPopout.LocalScript 
+coroutine.wrap(DNXNLZJ_fake_script)()
+local function UARW_fake_script() -- TargetPopout.LocalScript 
 	local script = Instance.new('LocalScript', TargetPopout)
 	local req = require
 	local require = function(obj)
@@ -1766,56 +1783,60 @@ local function ZVBBUA_fake_script() -- TargetPopout.LocalScript
 	local mouse = plr:GetMouse()
 	local userInputService = game:GetService("UserInputService")
 	local imageLabel = script.Parent.PFP
-	local UserInputService = game:GetService("UserInputService")
 	local v = workspace.Parent.Players
 	local enabled = false
+	local CC = game:GetService'Workspace'.CurrentCamera
+	
 	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
 		if input.UserInputType == Enum.UserInputType.Keyboard then
 			if input.KeyCode == Enum.KeyCode.Q then
-				local closestplr
-				local closestpos = 1e+100
+				local closestPlayer
+				local shortestDistance = math.huge
+	
 				for i,v in pairs(game.Players:GetPlayers()) do
 					if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("Head") then
 						if v.Character then
 							if enabled == false then
 								enabled = true
-								local mag = (mouse.Hit.p - v.Character.HumanoidRootPart.CFrame.Position).Magnitude
-								if  mag < closestpos then
-									closestplr = v
-									closestpos = mag
+								local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+								local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+								if  magnitude < shortestDistance then
+									closestPlayer = v
+									shortestDistance = magnitude
 								end
+								closestplrname = closestPlayer.Name
+								PlayerService = game:GetService("Players")
+								userId = (PlayerService:GetUserIdFromNameAsync(closestPlayer.Name))
+								--health
+								humanoid = game.Workspace[closestplrname]:FindFirstChild("Humanoid")
+								healthnumber = humanoid.Health
+	
+								local thumbType = Enum.ThumbnailType.HeadShot
+								local thumbSize = Enum.ThumbnailSize.Size420x420
+								local content, isReady = workspace.Parent.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+								script.Parent.DisplayName.Text = tostring(closestPlayer.Name)
+								imageLabel.Image = content
+								imageLabel.Size = UDim2.new(0, 99,0, 99)
+								--healthtxt
+								script.Parent.DHCCounter.Text = tostring(healthnumber)
+								
 							else
 								enabled = false
-								imageLabel.Image = "rbxassetid://9132768063"
+								imageLabel.Image = "rbxassetid://0"
 								script.Parent.DisplayName.Text = "nil"	
 							end
 						end
 					end
 				end
-				if enabled == true then
-					if closestplr then
-	
-						closestplrname = closestplr.Name
-						PlayerService = game:GetService("Players")
-						userId = (PlayerService:GetUserIdFromNameAsync(closestplr.Name))
-	
-						local thumbType = Enum.ThumbnailType.HeadShot
-						local thumbSize = Enum.ThumbnailSize.Size420x420
-						local content, isReady = workspace.Parent.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-						script.Parent.Namelol.Text = tostring(closestplr.Name)
-						imageLabel.Image = content
-						imageLabel.Size = UDim2.new(0, 99,0, 99)
-					end
-				end		
 			end
 		end
 	end)
 	
 	
 end
-coroutine.wrap(ZVBBUA_fake_script)()
-local function BTCCNAI_fake_script() -- PopoutTarget.smoothdrag 
+coroutine.wrap(UARW_fake_script)()
+local function JIWG_fake_script() -- PopoutTarget.smoothdrag 
 	local script = Instance.new('LocalScript', PopoutTarget)
 	local req = require
 	local require = function(obj)
@@ -1863,8 +1884,8 @@ local function BTCCNAI_fake_script() -- PopoutTarget.smoothdrag
 	end)
 	
 end
-coroutine.wrap(BTCCNAI_fake_script)()
-local function OTTOLN_fake_script() -- PopoutMain.smoothdrag 
+coroutine.wrap(JIWG_fake_script)()
+local function BREYP_fake_script() -- PopoutMain.smoothdrag 
 	local script = Instance.new('LocalScript', PopoutMain)
 	local req = require
 	local require = function(obj)
@@ -1912,8 +1933,8 @@ local function OTTOLN_fake_script() -- PopoutMain.smoothdrag
 	end)
 	
 end
-coroutine.wrap(OTTOLN_fake_script)()
-local function ESRSOV_fake_script() -- PFP_4.LocalScript 
+coroutine.wrap(BREYP_fake_script)()
+local function XSCI_fake_script() -- PFP_4.LocalScript 
 	local script = Instance.new('LocalScript', PFP_4)
 	local req = require
 	local require = function(obj)
@@ -1937,8 +1958,8 @@ local function ESRSOV_fake_script() -- PFP_4.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 99,0, 99)
 end
-coroutine.wrap(ESRSOV_fake_script)()
-local function DMAR_fake_script() -- DHCCounter_3.LocalScript 
+coroutine.wrap(XSCI_fake_script)()
+local function IOXAUIS_fake_script() -- DHCCounter_3.LocalScript 
 	local script = Instance.new('LocalScript', DHCCounter_3)
 	local req = require
 	local require = function(obj)
@@ -1955,8 +1976,8 @@ local function DMAR_fake_script() -- DHCCounter_3.LocalScript
 		script.Parent.Parent.DHCCounter.Text = dhc
 	end
 end
-coroutine.wrap(DMAR_fake_script)()
-local function WOUGOJ_fake_script() -- Rejoin_2.LocalScript 
+coroutine.wrap(IOXAUIS_fake_script)()
+local function VDGJKC_fake_script() -- Rejoin_2.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin_2)
 	local req = require
 	local require = function(obj)
@@ -1978,8 +1999,8 @@ local function WOUGOJ_fake_script() -- Rejoin_2.LocalScript
 		game:GetService'TeleportService':TeleportToPlaceInstance(game.PlaceId,game.JobId,game:GetService'Players'.LocalPlayer)
 	end)
 end
-coroutine.wrap(WOUGOJ_fake_script)()
-local function OFSRRY_fake_script() -- Faded_2.LocalScript 
+coroutine.wrap(VDGJKC_fake_script)()
+local function CKKSPGL_fake_script() -- Faded_2.LocalScript 
 	local script = Instance.new('LocalScript', Faded_2)
 	local req = require
 	local require = function(obj)
@@ -2000,8 +2021,8 @@ local function OFSRRY_fake_script() -- Faded_2.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 	end)
 end
-coroutine.wrap(OFSRRY_fake_script)()
-local function BSOWFD_fake_script() -- SwagMode_2.LocalScript 
+coroutine.wrap(CKKSPGL_fake_script)()
+local function BGIVY_fake_script() -- SwagMode_2.LocalScript 
 	local script = Instance.new('LocalScript', SwagMode_2)
 	local req = require
 	local require = function(obj)
@@ -2023,8 +2044,8 @@ local function BSOWFD_fake_script() -- SwagMode_2.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 	end)
 end
-coroutine.wrap(BSOWFD_fake_script)()
-local function AZSAHJT_fake_script() -- Shrink_2.OnClick 
+coroutine.wrap(BGIVY_fake_script)()
+local function TWRQZD_fake_script() -- Shrink_2.OnClick 
 	local script = Instance.new('LocalScript', Shrink_2)
 	local req = require
 	local require = function(obj)
@@ -2044,8 +2065,8 @@ local function AZSAHJT_fake_script() -- Shrink_2.OnClick
 		end
 	end)
 end
-coroutine.wrap(AZSAHJT_fake_script)()
-local function QLVDDI_fake_script() -- MainBackground.lock 
+coroutine.wrap(TWRQZD_fake_script)()
+local function ZMWRND_fake_script() -- MainBackground.lock 
 	local script = Instance.new('LocalScript', MainBackground)
 	local req = require
 	local require = function(obj)
@@ -2252,8 +2273,8 @@ local function QLVDDI_fake_script() -- MainBackground.lock
 		return old(...)
 	end)
 end
-coroutine.wrap(QLVDDI_fake_script)()
-local function SDCTN_fake_script() -- credits_2.LocalScript 
+coroutine.wrap(ZMWRND_fake_script)()
+local function EIUQKZR_fake_script() -- credits_2.LocalScript 
 	local script = Instance.new('LocalScript', credits_2)
 	local req = require
 	local require = function(obj)
@@ -2275,8 +2296,8 @@ local function SDCTN_fake_script() -- credits_2.LocalScript
 		wait(5)
 	end
 end
-coroutine.wrap(SDCTN_fake_script)()
-local function VMFFKMW_fake_script() -- Shrink_3.OnClick 
+coroutine.wrap(EIUQKZR_fake_script)()
+local function GXZQEOF_fake_script() -- Shrink_3.OnClick 
 	local script = Instance.new('LocalScript', Shrink_3)
 	local req = require
 	local require = function(obj)
@@ -2296,8 +2317,8 @@ local function VMFFKMW_fake_script() -- Shrink_3.OnClick
 		end
 	end)
 end
-coroutine.wrap(VMFFKMW_fake_script)()
-local function TACE_fake_script() -- PopoutSettings.smoothdrag 
+coroutine.wrap(GXZQEOF_fake_script)()
+local function DFGQKJA_fake_script() -- PopoutSettings.smoothdrag 
 	local script = Instance.new('LocalScript', PopoutSettings)
 	local req = require
 	local require = function(obj)
@@ -2345,8 +2366,8 @@ local function TACE_fake_script() -- PopoutSettings.smoothdrag
 	end)
 	
 end
-coroutine.wrap(TACE_fake_script)()
-local function KMACJS_fake_script() -- Home.MouseEnterRotate 
+coroutine.wrap(DFGQKJA_fake_script)()
+local function HXHBDP_fake_script() -- Home.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Home)
 	local req = require
 	local require = function(obj)
@@ -2363,8 +2384,8 @@ local function KMACJS_fake_script() -- Home.MouseEnterRotate
 		module.Rotate(script.Parent, 7,.1)
 	end)
 end
-coroutine.wrap(KMACJS_fake_script)()
-local function IQHGWKN_fake_script() -- Home.OnClick 
+coroutine.wrap(HXHBDP_fake_script)()
+local function QRBXM_fake_script() -- Home.OnClick 
 	local script = Instance.new('LocalScript', Home)
 	local req = require
 	local require = function(obj)
@@ -2384,8 +2405,8 @@ local function IQHGWKN_fake_script() -- Home.OnClick
 		end
 	end)
 end
-coroutine.wrap(IQHGWKN_fake_script)()
-local function CVXZMU_fake_script() -- Settings_2.MouseEnterRotate 
+coroutine.wrap(QRBXM_fake_script)()
+local function VFVAKR_fake_script() -- Settings_2.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2402,8 +2423,8 @@ local function CVXZMU_fake_script() -- Settings_2.MouseEnterRotate
 		module.Rotate(script.Parent, 45,.3)
 	end)
 end
-coroutine.wrap(CVXZMU_fake_script)()
-local function KYNLRX_fake_script() -- Settings_2.OnClick 
+coroutine.wrap(VFVAKR_fake_script)()
+local function OUVP_fake_script() -- Settings_2.OnClick 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2423,8 +2444,8 @@ local function KYNLRX_fake_script() -- Settings_2.OnClick
 		end
 	end)
 end
-coroutine.wrap(KYNLRX_fake_script)()
-local function VJEYMMX_fake_script() -- Target_2.MouseEnterRotate 
+coroutine.wrap(OUVP_fake_script)()
+local function APKH_fake_script() -- Target_2.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Target_2)
 	local req = require
 	local require = function(obj)
@@ -2441,8 +2462,8 @@ local function VJEYMMX_fake_script() -- Target_2.MouseEnterRotate
 		module.Rotate(script.Parent, 7,.1)
 	end)
 end
-coroutine.wrap(VJEYMMX_fake_script)()
-local function MFVZ_fake_script() -- Target_2.OnClick 
+coroutine.wrap(APKH_fake_script)()
+local function ZVSS_fake_script() -- Target_2.OnClick 
 	local script = Instance.new('LocalScript', Target_2)
 	local req = require
 	local require = function(obj)
@@ -2462,8 +2483,8 @@ local function MFVZ_fake_script() -- Target_2.OnClick
 		end
 	end)
 end
-coroutine.wrap(MFVZ_fake_script)()
-local function EODGZV_fake_script() -- Main_2.Visibility 
+coroutine.wrap(ZVSS_fake_script)()
+local function CZEGOKJ_fake_script() -- Main_2.Visibility 
 	local script = Instance.new('LocalScript', Main_2)
 	local req = require
 	local require = function(obj)
@@ -2492,8 +2513,8 @@ local function EODGZV_fake_script() -- Main_2.Visibility
 	
 	
 end
-coroutine.wrap(EODGZV_fake_script)()
-local function OARFMOT_fake_script() -- Main_2.color 
+coroutine.wrap(CZEGOKJ_fake_script)()
+local function JBTCURN_fake_script() -- Main_2.color 
 	local script = Instance.new('LocalScript', Main_2)
 	local req = require
 	local require = function(obj)
@@ -2597,4 +2618,4 @@ local function OARFMOT_fake_script() -- Main_2.color
 	end)
 	
 end
-coroutine.wrap(OARFMOT_fake_script)()
+coroutine.wrap(JBTCURN_fake_script)()
