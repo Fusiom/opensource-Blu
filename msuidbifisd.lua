@@ -1,4 +1,4 @@
-print('fusion and nokil were here')
+print('nokil and fusion were here')
 local Main = Instance.new("ScreenGui")
 local Main_2 = Instance.new("Frame")
 local Top = Instance.new("Frame")
@@ -79,27 +79,10 @@ local UICorner_29 = Instance.new("UICorner")
 local PFP_3 = Instance.new("ImageLabel")
 local Shrink = Instance.new("TextButton")
 local UICorner_30 = Instance.new("UICorner")
-local PopoutMain = Instance.new("Frame")
-local UICorner_31 = Instance.new("UICorner")
-local MainPopout = Instance.new("Frame")
-local PFP_4 = Instance.new("ImageLabel")
-local DisplayName_3 = Instance.new("TextBox")
-local UICorner_32 = Instance.new("UICorner")
-local DHCCounter_3 = Instance.new("TextBox")
-local UICorner_33 = Instance.new("UICorner")
-local Rejoin_2 = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
-local Faded_2 = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
-local SwagMode_2 = Instance.new("TextButton")
-local UICorner_36 = Instance.new("UICorner")
-local UICorner_37 = Instance.new("UICorner")
-local Shrink_2 = Instance.new("TextButton")
-local UICorner_38 = Instance.new("UICorner")
 local PopoutSettings = Instance.new("Frame")
 local Frame = Instance.new("Frame")
 local barcolors_2 = Instance.new("TextLabel")
-local UICorner_39 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local green_3 = Instance.new("TextButton")
 local UIGradient_6 = Instance.new("UIGradient")
 local purple_3 = Instance.new("TextButton")
@@ -111,25 +94,42 @@ local UIGradient_9 = Instance.new("UIGradient")
 local blue_3 = Instance.new("TextButton")
 local UIGradient_10 = Instance.new("UIGradient")
 local credits_2 = Instance.new("TextLabel")
-local UICorner_40 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local creditstxt_2 = Instance.new("TextLabel")
 local dotcolors_2 = Instance.new("TextLabel")
-local UICorner_41 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
 local red_4 = Instance.new("TextButton")
-local UICorner_42 = Instance.new("UICorner")
+local UICorner_34 = Instance.new("UICorner")
 local orange_2 = Instance.new("TextButton")
-local UICorner_43 = Instance.new("UICorner")
+local UICorner_35 = Instance.new("UICorner")
 local yellow_2 = Instance.new("TextButton")
-local UICorner_44 = Instance.new("UICorner")
+local UICorner_36 = Instance.new("UICorner")
 local green_4 = Instance.new("TextButton")
-local UICorner_45 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
 local purple_4 = Instance.new("TextButton")
-local UICorner_46 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local blue_4 = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local UICorner_40 = Instance.new("UICorner")
+local Shrink_2 = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local UICorner_42 = Instance.new("UICorner")
+local PopoutMain = Instance.new("Frame")
+local UICorner_43 = Instance.new("UICorner")
+local MainPopout = Instance.new("Frame")
+local PFP_4 = Instance.new("ImageLabel")
+local DisplayName_3 = Instance.new("TextBox")
+local UICorner_44 = Instance.new("UICorner")
+local DHCCounter_3 = Instance.new("TextBox")
+local UICorner_45 = Instance.new("UICorner")
+local Rejoin_2 = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
+local Faded_2 = Instance.new("TextButton")
 local UICorner_47 = Instance.new("UICorner")
+local SwagMode_2 = Instance.new("TextButton")
 local UICorner_48 = Instance.new("UICorner")
-local Shrink_3 = Instance.new("TextButton")
 local UICorner_49 = Instance.new("UICorner")
+local Shrink_3 = Instance.new("TextButton")
 local UICorner_50 = Instance.new("UICorner")
 local SecondaryBackground = Instance.new("Frame")
 local UICorner_51 = Instance.new("UICorner")
@@ -304,6 +304,7 @@ Target.Parent = MainBackground
 Target.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Target.BackgroundTransparency = 1.000
 Target.Size = UDim2.new(0, 360, 0, 200)
+Target.Visible = false
 
 OnOff.Name = "OnOff"
 OnOff.Parent = Target
@@ -688,116 +689,6 @@ Shrink.TextSize = 14.000
 UICorner_30.CornerRadius = UDim.new(0, 3)
 UICorner_30.Parent = Shrink
 
-PopoutMain.Name = "PopoutMain"
-PopoutMain.Parent = MainBackground
-PopoutMain.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-PopoutMain.LayoutOrder = 6
-PopoutMain.Position = UDim2.new(1.14999998, 0, -0.0699999705, 0)
-PopoutMain.Size = UDim2.new(0, 374, 0, 38)
-PopoutMain.Visible = false
-PopoutMain.ZIndex = 6
-
-UICorner_31.CornerRadius = UDim.new(0, 3)
-UICorner_31.Parent = PopoutMain
-
-MainPopout.Name = "MainPopout"
-MainPopout.Parent = PopoutMain
-MainPopout.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
-MainPopout.Position = UDim2.new(0, 0, 0.796052635, 0)
-MainPopout.Size = UDim2.new(0, 374, 0, 193)
-
-PFP_4.Name = "PFP"
-PFP_4.Parent = MainPopout
-PFP_4.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
-PFP_4.BorderSizePixel = 0
-PFP_4.Position = UDim2.new(0.0305555575, 0, 0.0399999917, 0)
-PFP_4.Size = UDim2.new(0, 100, 0, 100)
-PFP_4.Image = "rbxassetid://5187839402"
-
-DisplayName_3.Name = "DisplayName"
-DisplayName_3.Parent = MainPopout
-DisplayName_3.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-DisplayName_3.Position = UDim2.new(0.352777779, 0, 0.075000003, 0)
-DisplayName_3.Size = UDim2.new(0, 222, 0, 50)
-DisplayName_3.ClearTextOnFocus = false
-DisplayName_3.Font = Enum.Font.SourceSansBold
-DisplayName_3.Text = "fusion"
-DisplayName_3.TextColor3 = Color3.fromRGB(232, 232, 232)
-DisplayName_3.TextSize = 32.000
-DisplayName_3.TextWrapped = true
-
-UICorner_32.CornerRadius = UDim.new(0, 5)
-UICorner_32.Parent = DisplayName_3
-
-DHCCounter_3.Name = "DHCCounter"
-DHCCounter_3.Parent = MainPopout
-DHCCounter_3.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-DHCCounter_3.Position = UDim2.new(0.352777988, 0, 0.375, 0)
-DHCCounter_3.Size = UDim2.new(0, 226, 0, 25)
-DHCCounter_3.ClearTextOnFocus = false
-DHCCounter_3.Font = Enum.Font.SourceSansBold
-DHCCounter_3.Text = "0"
-DHCCounter_3.TextColor3 = Color3.fromRGB(232, 232, 232)
-DHCCounter_3.TextSize = 21.000
-DHCCounter_3.TextWrapped = true
-
-UICorner_33.CornerRadius = UDim.new(0, 5)
-UICorner_33.Parent = DHCCounter_3
-
-Rejoin_2.Name = "Rejoin"
-Rejoin_2.Parent = MainPopout
-Rejoin_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Rejoin_2.Position = UDim2.new(0.0305555556, 0, 0.629999995, 0)
-Rejoin_2.Size = UDim2.new(0, 100, 0, 50)
-Rejoin_2.Font = Enum.Font.SourceSansBold
-Rejoin_2.Text = "Rejoin"
-Rejoin_2.TextColor3 = Color3.fromRGB(232, 232, 232)
-Rejoin_2.TextSize = 20.000
-
-UICorner_34.CornerRadius = UDim.new(0, 5)
-UICorner_34.Parent = Rejoin_2
-
-Faded_2.Name = "Faded"
-Faded_2.Parent = MainPopout
-Faded_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Faded_2.Position = UDim2.new(0.361111104, 0, 0.629999995, 0)
-Faded_2.Size = UDim2.new(0, 100, 0, 50)
-Faded_2.Font = Enum.Font.SourceSansBold
-Faded_2.Text = "Faded"
-Faded_2.TextColor3 = Color3.fromRGB(232, 232, 232)
-Faded_2.TextSize = 20.000
-
-UICorner_35.CornerRadius = UDim.new(0, 5)
-UICorner_35.Parent = Faded_2
-
-SwagMode_2.Name = "SwagMode"
-SwagMode_2.Parent = MainPopout
-SwagMode_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-SwagMode_2.Position = UDim2.new(0.691666663, 0, 0.629999995, 0)
-SwagMode_2.Size = UDim2.new(0, 100, 0, 50)
-SwagMode_2.Font = Enum.Font.SourceSansBold
-SwagMode_2.Text = "SwagMode"
-SwagMode_2.TextColor3 = Color3.fromRGB(232, 232, 232)
-SwagMode_2.TextSize = 20.000
-
-UICorner_36.CornerRadius = UDim.new(0, 5)
-UICorner_36.Parent = SwagMode_2
-
-UICorner_37.Parent = MainPopout
-
-Shrink_2.Name = "Shrink"
-Shrink_2.Parent = PopoutMain
-Shrink_2.BackgroundColor3 = Color3.fromRGB(197, 0, 0)
-Shrink_2.Position = UDim2.new(0.761955976, 0, 0.146578953, 0)
-Shrink_2.Size = UDim2.new(0, 79, 0, 18)
-Shrink_2.Font = Enum.Font.SourceSansBold
-Shrink_2.Text = "Shrink"
-Shrink_2.TextColor3 = Color3.fromRGB(240, 240, 240)
-Shrink_2.TextSize = 14.000
-
-UICorner_38.CornerRadius = UDim.new(0, 3)
-UICorner_38.Parent = Shrink_2
-
 PopoutSettings.Name = "PopoutSettings"
 PopoutSettings.Parent = MainBackground
 PopoutSettings.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
@@ -821,8 +712,8 @@ barcolors_2.Text = "Bar Colors"
 barcolors_2.TextColor3 = Color3.fromRGB(221, 221, 221)
 barcolors_2.TextSize = 16.000
 
-UICorner_39.CornerRadius = UDim.new(0, 5)
-UICorner_39.Parent = barcolors_2
+UICorner_31.CornerRadius = UDim.new(0, 5)
+UICorner_31.Parent = barcolors_2
 
 green_3.Name = "green"
 green_3.Parent = barcolors_2
@@ -909,8 +800,8 @@ credits_2.Text = "Credits"
 credits_2.TextColor3 = Color3.fromRGB(221, 221, 221)
 credits_2.TextSize = 16.000
 
-UICorner_40.CornerRadius = UDim.new(0, 5)
-UICorner_40.Parent = credits_2
+UICorner_32.CornerRadius = UDim.new(0, 5)
+UICorner_32.Parent = credits_2
 
 creditstxt_2.Name = "creditstxt"
 creditstxt_2.Parent = credits_2
@@ -933,8 +824,8 @@ dotcolors_2.Text = "Dot Colors"
 dotcolors_2.TextColor3 = Color3.fromRGB(221, 221, 221)
 dotcolors_2.TextSize = 16.000
 
-UICorner_41.CornerRadius = UDim.new(0, 5)
-UICorner_41.Parent = dotcolors_2
+UICorner_33.CornerRadius = UDim.new(0, 5)
+UICorner_33.Parent = dotcolors_2
 
 red_4.Name = "red"
 red_4.Parent = dotcolors_2
@@ -946,8 +837,8 @@ red_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 red_4.TextSize = 1.000
 red_4.TextTransparency = 1.000
 
-UICorner_42.CornerRadius = UDim.new(1, 0)
-UICorner_42.Parent = red_4
+UICorner_34.CornerRadius = UDim.new(1, 0)
+UICorner_34.Parent = red_4
 
 orange_2.Name = "orange"
 orange_2.Parent = dotcolors_2
@@ -959,8 +850,8 @@ orange_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 orange_2.TextSize = 1.000
 orange_2.TextTransparency = 1.000
 
-UICorner_43.CornerRadius = UDim.new(1, 0)
-UICorner_43.Parent = orange_2
+UICorner_35.CornerRadius = UDim.new(1, 0)
+UICorner_35.Parent = orange_2
 
 yellow_2.Name = "yellow"
 yellow_2.Parent = dotcolors_2
@@ -972,8 +863,8 @@ yellow_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 yellow_2.TextSize = 1.000
 yellow_2.TextTransparency = 1.000
 
-UICorner_44.CornerRadius = UDim.new(1, 0)
-UICorner_44.Parent = yellow_2
+UICorner_36.CornerRadius = UDim.new(1, 0)
+UICorner_36.Parent = yellow_2
 
 green_4.Name = "green"
 green_4.Parent = dotcolors_2
@@ -985,8 +876,8 @@ green_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 green_4.TextSize = 1.000
 green_4.TextTransparency = 1.000
 
-UICorner_45.CornerRadius = UDim.new(1, 0)
-UICorner_45.Parent = green_4
+UICorner_37.CornerRadius = UDim.new(1, 0)
+UICorner_37.Parent = green_4
 
 purple_4.Name = "purple"
 purple_4.Parent = dotcolors_2
@@ -998,8 +889,8 @@ purple_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 purple_4.TextSize = 1.000
 purple_4.TextTransparency = 1.000
 
-UICorner_46.CornerRadius = UDim.new(1, 0)
-UICorner_46.Parent = purple_4
+UICorner_38.CornerRadius = UDim.new(1, 0)
+UICorner_38.Parent = purple_4
 
 blue_4.Name = "blue"
 blue_4.Parent = dotcolors_2
@@ -1011,26 +902,136 @@ blue_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 blue_4.TextSize = 1.000
 blue_4.TextTransparency = 1.000
 
-UICorner_47.CornerRadius = UDim.new(1, 0)
-UICorner_47.Parent = blue_4
+UICorner_39.CornerRadius = UDim.new(1, 0)
+UICorner_39.Parent = blue_4
 
-UICorner_48.Parent = Frame
+UICorner_40.Parent = Frame
+
+Shrink_2.Name = "Shrink"
+Shrink_2.Parent = Frame
+Shrink_2.BackgroundColor3 = Color3.fromRGB(197, 0, 0)
+Shrink_2.Position = UDim2.new(0.758000016, 0, -0.108000003, 0)
+Shrink_2.Size = UDim2.new(0, 79, 0, 18)
+Shrink_2.Font = Enum.Font.SourceSansBold
+Shrink_2.Text = "Shrink"
+Shrink_2.TextColor3 = Color3.fromRGB(240, 240, 240)
+Shrink_2.TextSize = 14.000
+
+UICorner_41.CornerRadius = UDim.new(0, 3)
+UICorner_41.Parent = Shrink_2
+
+UICorner_42.CornerRadius = UDim.new(0, 3)
+UICorner_42.Parent = PopoutSettings
+
+PopoutMain.Name = "PopoutMain"
+PopoutMain.Parent = MainBackground
+PopoutMain.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+PopoutMain.LayoutOrder = 6
+PopoutMain.Position = UDim2.new(1.14999998, 0, -0.0699999705, 0)
+PopoutMain.Size = UDim2.new(0, 374, 0, 38)
+PopoutMain.Visible = false
+PopoutMain.ZIndex = 6
+
+UICorner_43.CornerRadius = UDim.new(0, 3)
+UICorner_43.Parent = PopoutMain
+
+MainPopout.Name = "MainPopout"
+MainPopout.Parent = PopoutMain
+MainPopout.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+MainPopout.Position = UDim2.new(0, 0, 0.796052635, 0)
+MainPopout.Size = UDim2.new(0, 374, 0, 193)
+
+PFP_4.Name = "PFP"
+PFP_4.Parent = MainPopout
+PFP_4.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+PFP_4.BorderSizePixel = 0
+PFP_4.Position = UDim2.new(0.0305555575, 0, 0.0399999917, 0)
+PFP_4.Size = UDim2.new(0, 100, 0, 100)
+PFP_4.Image = "rbxassetid://5187839402"
+
+DisplayName_3.Name = "DisplayName"
+DisplayName_3.Parent = MainPopout
+DisplayName_3.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+DisplayName_3.Position = UDim2.new(0.352777779, 0, 0.075000003, 0)
+DisplayName_3.Size = UDim2.new(0, 222, 0, 50)
+DisplayName_3.ClearTextOnFocus = false
+DisplayName_3.Font = Enum.Font.SourceSansBold
+DisplayName_3.Text = "fusion"
+DisplayName_3.TextColor3 = Color3.fromRGB(232, 232, 232)
+DisplayName_3.TextSize = 32.000
+DisplayName_3.TextWrapped = true
+
+UICorner_44.CornerRadius = UDim.new(0, 5)
+UICorner_44.Parent = DisplayName_3
+
+DHCCounter_3.Name = "DHCCounter"
+DHCCounter_3.Parent = MainPopout
+DHCCounter_3.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+DHCCounter_3.Position = UDim2.new(0.352777988, 0, 0.375, 0)
+DHCCounter_3.Size = UDim2.new(0, 226, 0, 25)
+DHCCounter_3.ClearTextOnFocus = false
+DHCCounter_3.Font = Enum.Font.SourceSansBold
+DHCCounter_3.Text = "0"
+DHCCounter_3.TextColor3 = Color3.fromRGB(232, 232, 232)
+DHCCounter_3.TextSize = 21.000
+DHCCounter_3.TextWrapped = true
+
+UICorner_45.CornerRadius = UDim.new(0, 5)
+UICorner_45.Parent = DHCCounter_3
+
+Rejoin_2.Name = "Rejoin"
+Rejoin_2.Parent = MainPopout
+Rejoin_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Rejoin_2.Position = UDim2.new(0.0305555556, 0, 0.629999995, 0)
+Rejoin_2.Size = UDim2.new(0, 100, 0, 50)
+Rejoin_2.Font = Enum.Font.SourceSansBold
+Rejoin_2.Text = "Rejoin"
+Rejoin_2.TextColor3 = Color3.fromRGB(232, 232, 232)
+Rejoin_2.TextSize = 20.000
+
+UICorner_46.CornerRadius = UDim.new(0, 5)
+UICorner_46.Parent = Rejoin_2
+
+Faded_2.Name = "Faded"
+Faded_2.Parent = MainPopout
+Faded_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+Faded_2.Position = UDim2.new(0.361111104, 0, 0.629999995, 0)
+Faded_2.Size = UDim2.new(0, 100, 0, 50)
+Faded_2.Font = Enum.Font.SourceSansBold
+Faded_2.Text = "Faded"
+Faded_2.TextColor3 = Color3.fromRGB(232, 232, 232)
+Faded_2.TextSize = 20.000
+
+UICorner_47.CornerRadius = UDim.new(0, 5)
+UICorner_47.Parent = Faded_2
+
+SwagMode_2.Name = "SwagMode"
+SwagMode_2.Parent = MainPopout
+SwagMode_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+SwagMode_2.Position = UDim2.new(0.691666663, 0, 0.629999995, 0)
+SwagMode_2.Size = UDim2.new(0, 100, 0, 50)
+SwagMode_2.Font = Enum.Font.SourceSansBold
+SwagMode_2.Text = "SwagMode"
+SwagMode_2.TextColor3 = Color3.fromRGB(232, 232, 232)
+SwagMode_2.TextSize = 20.000
+
+UICorner_48.CornerRadius = UDim.new(0, 5)
+UICorner_48.Parent = SwagMode_2
+
+UICorner_49.Parent = MainPopout
 
 Shrink_3.Name = "Shrink"
-Shrink_3.Parent = Frame
+Shrink_3.Parent = PopoutMain
 Shrink_3.BackgroundColor3 = Color3.fromRGB(197, 0, 0)
-Shrink_3.Position = UDim2.new(0.758000016, 0, -0.108000003, 0)
+Shrink_3.Position = UDim2.new(0.761955976, 0, 0.146578953, 0)
 Shrink_3.Size = UDim2.new(0, 79, 0, 18)
 Shrink_3.Font = Enum.Font.SourceSansBold
 Shrink_3.Text = "Shrink"
 Shrink_3.TextColor3 = Color3.fromRGB(240, 240, 240)
 Shrink_3.TextSize = 14.000
 
-UICorner_49.CornerRadius = UDim.new(0, 3)
-UICorner_49.Parent = Shrink_3
-
 UICorner_50.CornerRadius = UDim.new(0, 3)
-UICorner_50.Parent = PopoutSettings
+UICorner_50.Parent = Shrink_3
 
 SecondaryBackground.Name = "SecondaryBackground"
 SecondaryBackground.Parent = MainGui
@@ -1349,7 +1350,7 @@ end
 
 -- Scripts:
 
-local function ZZAOZM_fake_script() -- Top.smoothdrag 
+local function HMHG_fake_script() -- Top.smoothdrag 
 	local script = Instance.new('LocalScript', Top)
 	local req = require
 	local require = function(obj)
@@ -1397,8 +1398,8 @@ local function ZZAOZM_fake_script() -- Top.smoothdrag
 	end)
 	
 end
-coroutine.wrap(ZZAOZM_fake_script)()
-local function YOMAPU_fake_script() -- PFP.LocalScript 
+coroutine.wrap(HMHG_fake_script)()
+local function MJGXV_fake_script() -- PFP.LocalScript 
 	local script = Instance.new('LocalScript', PFP)
 	local req = require
 	local require = function(obj)
@@ -1423,8 +1424,8 @@ local function YOMAPU_fake_script() -- PFP.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 99,0, 99)
 end
-coroutine.wrap(YOMAPU_fake_script)()
-local function FTYVUP_fake_script() -- DHCCounter.LocalScript 
+coroutine.wrap(MJGXV_fake_script)()
+local function YWEQPN_fake_script() -- DHCCounter.LocalScript 
 	local script = Instance.new('LocalScript', DHCCounter)
 	local req = require
 	local require = function(obj)
@@ -1442,8 +1443,8 @@ local function FTYVUP_fake_script() -- DHCCounter.LocalScript
 		script.Parent.Parent.DHCCounter.Text = dhc
 	end
 end
-coroutine.wrap(FTYVUP_fake_script)()
-local function YEWZKVA_fake_script() -- Faded.LocalScript 
+coroutine.wrap(YWEQPN_fake_script)()
+local function HDYVI_fake_script() -- Faded.LocalScript 
 	local script = Instance.new('LocalScript', Faded)
 	local req = require
 	local require = function(obj)
@@ -1464,8 +1465,8 @@ local function YEWZKVA_fake_script() -- Faded.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 	end)
 end
-coroutine.wrap(YEWZKVA_fake_script)()
-local function WLMSLT_fake_script() -- SwagMode.LocalScript 
+coroutine.wrap(HDYVI_fake_script)()
+local function ACRESUZ_fake_script() -- SwagMode.LocalScript 
 	local script = Instance.new('LocalScript', SwagMode)
 	local req = require
 	local require = function(obj)
@@ -1487,8 +1488,8 @@ local function WLMSLT_fake_script() -- SwagMode.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 	end)
 end
-coroutine.wrap(WLMSLT_fake_script)()
-local function SXPC_fake_script() -- Popout.OnClick 
+coroutine.wrap(ACRESUZ_fake_script)()
+local function EQGCH_fake_script() -- Popout.OnClick 
 	local script = Instance.new('LocalScript', Popout)
 	local req = require
 	local require = function(obj)
@@ -1504,8 +1505,8 @@ local function SXPC_fake_script() -- Popout.OnClick
 		script.Parent.Parent.Parent.PopoutMain.Visible = true
 	end)
 end
-coroutine.wrap(SXPC_fake_script)()
-local function FWAZOP_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(EQGCH_fake_script)()
+local function FZDEJQB_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 	local req = require
 	local require = function(obj)
@@ -1527,8 +1528,8 @@ local function FWAZOP_fake_script() -- Rejoin.LocalScript
 		game:GetService'TeleportService':TeleportToPlaceInstance(game.PlaceId,game.JobId,game:GetService'Players'.LocalPlayer)
 	end)
 end
-coroutine.wrap(FWAZOP_fake_script)()
-local function VNLR_fake_script() -- OnOff.LocalScript 
+coroutine.wrap(FZDEJQB_fake_script)()
+local function HZOH_fake_script() -- OnOff.LocalScript 
 	local script = Instance.new('LocalScript', OnOff)
 	local req = require
 	local require = function(obj)
@@ -1545,9 +1546,11 @@ local function VNLR_fake_script() -- OnOff.LocalScript
 		if input.UserInputType == Enum.UserInputType.Keyboard then
 			if input.KeyCode == Enum.KeyCode.Q then
 				if enabled == true then
+					print("off")
 					script.Parent.Parent.OnOff.Text = "Off"
 					enabled = false
 				else
+					print("on")
 					script.Parent.Parent.OnOff.Text = "On"
 					enabled = true 
 				end    
@@ -1557,8 +1560,8 @@ local function VNLR_fake_script() -- OnOff.LocalScript
 	
 	
 end
-coroutine.wrap(VNLR_fake_script)()
-local function MZTYZQD_fake_script() -- Popout_2.OnClick 
+coroutine.wrap(HZOH_fake_script)()
+local function NNBEGE_fake_script() -- Popout_2.OnClick 
 	local script = Instance.new('LocalScript', Popout_2)
 	local req = require
 	local require = function(obj)
@@ -1574,8 +1577,8 @@ local function MZTYZQD_fake_script() -- Popout_2.OnClick
 		script.Parent.Parent.Parent.PopoutTarget.Visible = true
 	end)
 end
-coroutine.wrap(MZTYZQD_fake_script)()
-local function BLYEH_fake_script() -- Target.find 
+coroutine.wrap(NNBEGE_fake_script)()
+local function TXGJXZX_fake_script() -- Target.find 
 	local script = Instance.new('LocalScript', Target)
 	local req = require
 	local require = function(obj)
@@ -1607,6 +1610,7 @@ local function BLYEH_fake_script() -- Target.find
 								enabled = true
 								local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
 								local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+								print('changed, enabled = true')
 								if  magnitude < shortestDistance then
 									closestPlayer = v
 									shortestDistance = magnitude
@@ -1630,6 +1634,8 @@ local function BLYEH_fake_script() -- Target.find
 								
 							else
 								enabled = false
+								print('changed, enabled = false')
+								enabled = false
 								imageLabel.Image = "rbxassetid://0"
 								script.Parent.Namelol.Text = "nil"	
 							end
@@ -1641,8 +1647,8 @@ local function BLYEH_fake_script() -- Target.find
 	end)
 	
 end
-coroutine.wrap(BLYEH_fake_script)()
-local function XJAQRX_fake_script() -- Target.update 
+coroutine.wrap(TXGJXZX_fake_script)()
+local function IBAP_fake_script() -- Target.update 
 	local script = Instance.new('LocalScript', Target)
 	local req = require
 	local require = function(obj)
@@ -1662,8 +1668,8 @@ local function XJAQRX_fake_script() -- Target.update
 		wait(3)
 	end
 end
-coroutine.wrap(XJAQRX_fake_script)()
-local function YMXBAYN_fake_script() -- Popout_3.OnClick 
+coroutine.wrap(IBAP_fake_script)()
+local function RNDC_fake_script() -- Popout_3.OnClick 
 	local script = Instance.new('LocalScript', Popout_3)
 	local req = require
 	local require = function(obj)
@@ -1679,8 +1685,8 @@ local function YMXBAYN_fake_script() -- Popout_3.OnClick
 		script.Parent.Parent.Parent.PopoutSettings.Visible = true
 	end)
 end
-coroutine.wrap(YMXBAYN_fake_script)()
-local function AMQE_fake_script() -- credits.LocalScript 
+coroutine.wrap(RNDC_fake_script)()
+local function ZIPNN_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 	local req = require
 	local require = function(obj)
@@ -1702,371 +1708,8 @@ local function AMQE_fake_script() -- credits.LocalScript
 		wait(5)
 	end
 end
-coroutine.wrap(AMQE_fake_script)()
-local function HYMPMAB_fake_script() -- DHCCounter_2.LocalScript 
-	local script = Instance.new('LocalScript', DHCCounter_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	
-end
-coroutine.wrap(HYMPMAB_fake_script)()
-local function JKVB_fake_script() -- OnOff_2.LocalScript 
-	local script = Instance.new('LocalScript', OnOff_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local enabled = false
-	local userInputService = game:GetService("UserInputService")
-	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
-		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.Q then
-				if enabled == true then
-					script.Parent.Parent.OnOff.Text = "Off"
-					enabled = false
-				else
-					script.Parent.Parent.OnOff.Text = "On"
-					enabled = true 
-				end    
-			end
-		end
-	end)
-	
-	
-end
-coroutine.wrap(JKVB_fake_script)()
-local function DNXNLZJ_fake_script() -- Shrink.OnClick 
-	local script = Instance.new('LocalScript', Shrink)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Parent.Parent.Main.Visible == true or script.Parent.Parent.Parent.Parent.Settings.Visible == true then
-			script.Parent.Parent.Parent.Parent.PopoutTarget.Visible = false
-		else
-			script.Parent.Parent.Parent.Parent.Target.Visible = true
-			script.Parent.Parent.Parent.Parent.PopoutTarget.Visible = false
-		end
-	end)
-end
-coroutine.wrap(DNXNLZJ_fake_script)()
-local function UARW_fake_script() -- TargetPopout.LocalScript 
-	local script = Instance.new('LocalScript', TargetPopout)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local plr = game.Players.LocalPlayer
-	local mouse = plr:GetMouse()
-	local userInputService = game:GetService("UserInputService")
-	local imageLabel = script.Parent.PFP
-	local v = workspace.Parent.Players
-	local enabled = false
-	local CC = game:GetService'Workspace'.CurrentCamera
-	
-	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
-		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.Q then
-				local closestPlayer
-				local shortestDistance = math.huge
-	
-				for i,v in pairs(game.Players:GetPlayers()) do
-					if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("Head") then
-						if v.Character then
-							if enabled == false then
-								enabled = true
-								local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
-								local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
-								if  magnitude < shortestDistance then
-									closestPlayer = v
-									shortestDistance = magnitude
-								end
-								closestplrname = closestPlayer.Name
-								PlayerService = game:GetService("Players")
-								userId = (PlayerService:GetUserIdFromNameAsync(closestPlayer.Name))
-								--health
-								humanoid = game.Workspace[closestplrname]:FindFirstChild("Humanoid")
-								healthnumber = humanoid.Health
-	
-								local thumbType = Enum.ThumbnailType.HeadShot
-								local thumbSize = Enum.ThumbnailSize.Size420x420
-								local content, isReady = workspace.Parent.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-								script.Parent.DisplayName.Text = tostring(closestPlayer.Name)
-								imageLabel.Image = content
-								imageLabel.Size = UDim2.new(0, 99,0, 99)
-								--healthtxt
-								script.Parent.DHCCounter.Text = tostring(healthnumber)
-								
-							else
-								enabled = false
-								imageLabel.Image = "rbxassetid://0"
-								script.Parent.DisplayName.Text = "nil"	
-							end
-						end
-					end
-				end
-			end
-		end
-	end)
-	
-	
-end
-coroutine.wrap(UARW_fake_script)()
-local function JIWG_fake_script() -- PopoutTarget.smoothdrag 
-	local script = Instance.new('LocalScript', PopoutTarget)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	
-	local UIS = game:GetService('UserInputService')
-	local frame = script.Parent
-	local dragToggle = nil
-	local dragSpeed = 0.15
-	local dragStart = nil
-	local startPos = nil
-	
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-	end
-	
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			if dragToggle then
-				updateInput(input)
-			end
-		end
-	end)
-	
-end
-coroutine.wrap(JIWG_fake_script)()
-local function BREYP_fake_script() -- PopoutMain.smoothdrag 
-	local script = Instance.new('LocalScript', PopoutMain)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	
-	local UIS = game:GetService('UserInputService')
-	local frame = script.Parent
-	local dragToggle = nil
-	local dragSpeed = 0.15
-	local dragStart = nil
-	local startPos = nil
-	
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-	end
-	
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			if dragToggle then
-				updateInput(input)
-			end
-		end
-	end)
-	
-end
-coroutine.wrap(BREYP_fake_script)()
-local function XSCI_fake_script() -- PFP_4.LocalScript 
-	local script = Instance.new('LocalScript', PFP_4)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local imageLabel = script.Parent.Parent.PFP
-	local plr = game.Players.LocalPlayer
-	local thumbType = Enum.ThumbnailType.HeadShot
-	local thumbSize = Enum.ThumbnailSize.Size420x420
-	
-	PlayerService = game:GetService("Players")
-	
-	local userId = game.Players.LocalPlayer.UserId
-	local content, isReady = workspace.Parent.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
-	
-	imageLabel.Image = content
-	imageLabel.Size = UDim2.new(0, 99,0, 99)
-end
-coroutine.wrap(XSCI_fake_script)()
-local function IOXAUIS_fake_script() -- DHCCounter_3.LocalScript 
-	local script = Instance.new('LocalScript', DHCCounter_3)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	while true do
-		wait(1)
-		dhc = workspace.Parent.Players.LocalPlayer.DataFolder.Currency.Value
-		script.Parent.Parent.DHCCounter.Text = dhc
-	end
-end
-coroutine.wrap(IOXAUIS_fake_script)()
-local function VDGJKC_fake_script() -- Rejoin_2.LocalScript 
-	local script = Instance.new('LocalScript', Rejoin_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local module = require(script.Parent.ThisIsSoDumb)
-	
-	script.Parent.MouseEnter:Connect(function()
-		module.Rotate(script.Parent, 3,.1)
-	end)
-	
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		game:GetService'TeleportService':TeleportToPlaceInstance(game.PlaceId,game.JobId,game:GetService'Players'.LocalPlayer)
-	end)
-end
-coroutine.wrap(VDGJKC_fake_script)()
-local function CKKSPGL_fake_script() -- Faded_2.LocalScript 
-	local script = Instance.new('LocalScript', Faded_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local module = require(script.Parent.Parent.Rejoin.ThisIsSoDumb)
-	
-	script.Parent.MouseEnter:Connect(function()
-		module.Rotate(script.Parent, 3,.1)
-	end)
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
-	end)
-end
-coroutine.wrap(CKKSPGL_fake_script)()
-local function BGIVY_fake_script() -- SwagMode_2.LocalScript 
-	local script = Instance.new('LocalScript', SwagMode_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local module = require(script.Parent.Parent.Rejoin.ThisIsSoDumb)
-	
-	script.Parent.MouseEnter:Connect(function()
-		module.Rotate(script.Parent, 3,.1)
-	end)
-	
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
-	end)
-end
-coroutine.wrap(BGIVY_fake_script)()
-local function TWRQZD_fake_script() -- Shrink_2.OnClick 
-	local script = Instance.new('LocalScript', Shrink_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.Parent.Settings.Visible == true or script.Parent.Parent.Parent.Target.Visible == true then
-			script.Parent.Parent.Parent.PopoutMain.Visible = false
-		else
-			script.Parent.Parent.Parent.Main.Visible = true
-			script.Parent.Parent.Parent.PopoutMain.Visible = false
-		end
-	end)
-end
-coroutine.wrap(TWRQZD_fake_script)()
-local function ZMWRND_fake_script() -- MainBackground.lock 
+coroutine.wrap(ZIPNN_fake_script)()
+local function VNUHQJY_fake_script() -- MainBackground.lock 
 	local script = Instance.new('LocalScript', MainBackground)
 	local req = require
 	local require = function(obj)
@@ -2273,8 +1916,193 @@ local function ZMWRND_fake_script() -- MainBackground.lock
 		return old(...)
 	end)
 end
-coroutine.wrap(ZMWRND_fake_script)()
-local function EIUQKZR_fake_script() -- credits_2.LocalScript 
+coroutine.wrap(VNUHQJY_fake_script)()
+local function PFUUIKP_fake_script() -- DHCCounter_2.LocalScript 
+	local script = Instance.new('LocalScript', DHCCounter_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	
+end
+coroutine.wrap(PFUUIKP_fake_script)()
+local function GKAOE_fake_script() -- OnOff_2.LocalScript 
+	local script = Instance.new('LocalScript', OnOff_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local enabled = false
+	local userInputService = game:GetService("UserInputService")
+	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.Q then
+				if enabled == true then
+					script.Parent.Parent.OnOff.Text = "Off"
+					enabled = false
+				else
+					script.Parent.Parent.OnOff.Text = "On"
+					enabled = true 
+				end    
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(GKAOE_fake_script)()
+local function KNTUHRX_fake_script() -- Shrink.OnClick 
+	local script = Instance.new('LocalScript', Shrink)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Parent.Main.Visible == true or script.Parent.Parent.Parent.Parent.Settings.Visible == true then
+			script.Parent.Parent.Parent.Parent.PopoutTarget.Visible = false
+		else
+			script.Parent.Parent.Parent.Parent.Target.Visible = true
+			script.Parent.Parent.Parent.Parent.PopoutTarget.Visible = false
+		end
+	end)
+end
+coroutine.wrap(KNTUHRX_fake_script)()
+local function GQNXMO_fake_script() -- TargetPopout.LocalScript 
+	local script = Instance.new('LocalScript', TargetPopout)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local plr = game.Players.LocalPlayer
+	local mouse = plr:GetMouse()
+	local userInputService = game:GetService("UserInputService")
+	local imageLabel = script.Parent.PFP
+	local v = workspace.Parent.Players
+	local enabled = false
+	local CC = game:GetService'Workspace'.CurrentCamera
+	
+	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode.Q then
+				local closestPlayer
+				local shortestDistance = math.huge
+	
+				for i,v in pairs(game.Players:GetPlayers()) do
+					if v ~= game.Players.LocalPlayer and v.Character and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health ~= 0 and v.Character:FindFirstChild("Head") then
+						if v.Character then
+							if enabled == false then
+								enabled = true
+								local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
+								local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
+								print('changed, enabled = true')
+								if  magnitude < shortestDistance then
+									closestPlayer = v
+									shortestDistance = magnitude
+								end
+								closestplrname = closestPlayer.Name
+								PlayerService = game:GetService("Players")
+								userId = (PlayerService:GetUserIdFromNameAsync(closestPlayer.Name))
+								--health
+								humanoid = game.Workspace[closestplrname]:FindFirstChild("Humanoid")
+								healthnumber = humanoid.Health
+	
+								local thumbType = Enum.ThumbnailType.HeadShot
+								local thumbSize = Enum.ThumbnailSize.Size420x420
+								local content, isReady = workspace.Parent.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+								script.Parent.DisplayName.Text = tostring(closestPlayer.Name)
+								imageLabel.Image = content
+								imageLabel.Size = UDim2.new(0, 99,0, 99)
+								--healthtxt
+								script.Parent.DHCCounter.Text = tostring(healthnumber)
+								
+							else
+								enabled = false
+								print('changed, enabled = false')
+								enabled = false
+								imageLabel.Image = "rbxassetid://0"
+								script.Parent.DisplayName.Text = "nil"	
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(GQNXMO_fake_script)()
+local function SYAYG_fake_script() -- PopoutTarget.smoothdrag 
+	local script = Instance.new('LocalScript', PopoutTarget)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.15
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(SYAYG_fake_script)()
+local function DLWHWL_fake_script() -- credits_2.LocalScript 
 	local script = Instance.new('LocalScript', credits_2)
 	local req = require
 	local require = function(obj)
@@ -2296,9 +2124,9 @@ local function EIUQKZR_fake_script() -- credits_2.LocalScript
 		wait(5)
 	end
 end
-coroutine.wrap(EIUQKZR_fake_script)()
-local function GXZQEOF_fake_script() -- Shrink_3.OnClick 
-	local script = Instance.new('LocalScript', Shrink_3)
+coroutine.wrap(DLWHWL_fake_script)()
+local function RTFPZG_fake_script() -- Shrink_2.OnClick 
+	local script = Instance.new('LocalScript', Shrink_2)
 	local req = require
 	local require = function(obj)
 		local fake = fake_module_scripts[obj]
@@ -2317,8 +2145,8 @@ local function GXZQEOF_fake_script() -- Shrink_3.OnClick
 		end
 	end)
 end
-coroutine.wrap(GXZQEOF_fake_script)()
-local function DFGQKJA_fake_script() -- PopoutSettings.smoothdrag 
+coroutine.wrap(RTFPZG_fake_script)()
+local function OHHMBNR_fake_script() -- PopoutSettings.smoothdrag 
 	local script = Instance.new('LocalScript', PopoutSettings)
 	local req = require
 	local require = function(obj)
@@ -2366,8 +2194,189 @@ local function DFGQKJA_fake_script() -- PopoutSettings.smoothdrag
 	end)
 	
 end
-coroutine.wrap(DFGQKJA_fake_script)()
-local function HXHBDP_fake_script() -- Home.MouseEnterRotate 
+coroutine.wrap(OHHMBNR_fake_script)()
+local function NNBM_fake_script() -- PopoutMain.smoothdrag 
+	local script = Instance.new('LocalScript', PopoutMain)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.15
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(NNBM_fake_script)()
+local function FEWLXZG_fake_script() -- PFP_4.LocalScript 
+	local script = Instance.new('LocalScript', PFP_4)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local imageLabel = script.Parent.Parent.PFP
+	local plr = game.Players.LocalPlayer
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	
+	PlayerService = game:GetService("Players")
+	
+	local userId = game.Players.LocalPlayer.UserId
+	local content, isReady = workspace.Parent.Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	imageLabel.Image = content
+	imageLabel.Size = UDim2.new(0, 99,0, 99)
+end
+coroutine.wrap(FEWLXZG_fake_script)()
+local function YAPAY_fake_script() -- DHCCounter_3.LocalScript 
+	local script = Instance.new('LocalScript', DHCCounter_3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	while true do
+		wait(1)
+		dhc = workspace.Parent.Players.LocalPlayer.DataFolder.Currency.Value
+		script.Parent.Parent.DHCCounter.Text = dhc
+	end
+end
+coroutine.wrap(YAPAY_fake_script)()
+local function KSQTKWD_fake_script() -- Rejoin_2.LocalScript 
+	local script = Instance.new('LocalScript', Rejoin_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local module = require(script.Parent.ThisIsSoDumb)
+	
+	script.Parent.MouseEnter:Connect(function()
+		module.Rotate(script.Parent, 3,.1)
+	end)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService'TeleportService':TeleportToPlaceInstance(game.PlaceId,game.JobId,game:GetService'Players'.LocalPlayer)
+	end)
+end
+coroutine.wrap(KSQTKWD_fake_script)()
+local function AQWBSQM_fake_script() -- Faded_2.LocalScript 
+	local script = Instance.new('LocalScript', Faded_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local module = require(script.Parent.Parent.Rejoin.ThisIsSoDumb)
+	
+	script.Parent.MouseEnter:Connect(function()
+		module.Rotate(script.Parent, 3,.1)
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+	end)
+end
+coroutine.wrap(AQWBSQM_fake_script)()
+local function AUAV_fake_script() -- SwagMode_2.LocalScript 
+	local script = Instance.new('LocalScript', SwagMode_2)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local module = require(script.Parent.Parent.Rejoin.ThisIsSoDumb)
+	
+	script.Parent.MouseEnter:Connect(function()
+		module.Rotate(script.Parent, 3,.1)
+	end)
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+	end)
+end
+coroutine.wrap(AUAV_fake_script)()
+local function UJGMD_fake_script() -- Shrink_3.OnClick 
+	local script = Instance.new('LocalScript', Shrink_3)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Parent.Parent.Settings.Visible == true or script.Parent.Parent.Parent.Target.Visible == true then
+			script.Parent.Parent.Parent.PopoutMain.Visible = false
+		else
+			script.Parent.Parent.Parent.Main.Visible = true
+			script.Parent.Parent.Parent.PopoutMain.Visible = false
+		end
+	end)
+end
+coroutine.wrap(UJGMD_fake_script)()
+local function DPOQVWN_fake_script() -- Home.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Home)
 	local req = require
 	local require = function(obj)
@@ -2384,8 +2393,8 @@ local function HXHBDP_fake_script() -- Home.MouseEnterRotate
 		module.Rotate(script.Parent, 7,.1)
 	end)
 end
-coroutine.wrap(HXHBDP_fake_script)()
-local function QRBXM_fake_script() -- Home.OnClick 
+coroutine.wrap(DPOQVWN_fake_script)()
+local function ONMTIE_fake_script() -- Home.OnClick 
 	local script = Instance.new('LocalScript', Home)
 	local req = require
 	local require = function(obj)
@@ -2405,8 +2414,8 @@ local function QRBXM_fake_script() -- Home.OnClick
 		end
 	end)
 end
-coroutine.wrap(QRBXM_fake_script)()
-local function VFVAKR_fake_script() -- Settings_2.MouseEnterRotate 
+coroutine.wrap(ONMTIE_fake_script)()
+local function GSUMVCS_fake_script() -- Settings_2.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2423,8 +2432,8 @@ local function VFVAKR_fake_script() -- Settings_2.MouseEnterRotate
 		module.Rotate(script.Parent, 45,.3)
 	end)
 end
-coroutine.wrap(VFVAKR_fake_script)()
-local function OUVP_fake_script() -- Settings_2.OnClick 
+coroutine.wrap(GSUMVCS_fake_script)()
+local function FILNQC_fake_script() -- Settings_2.OnClick 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2444,8 +2453,8 @@ local function OUVP_fake_script() -- Settings_2.OnClick
 		end
 	end)
 end
-coroutine.wrap(OUVP_fake_script)()
-local function APKH_fake_script() -- Target_2.MouseEnterRotate 
+coroutine.wrap(FILNQC_fake_script)()
+local function XFJFCB_fake_script() -- Target_2.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Target_2)
 	local req = require
 	local require = function(obj)
@@ -2462,8 +2471,8 @@ local function APKH_fake_script() -- Target_2.MouseEnterRotate
 		module.Rotate(script.Parent, 7,.1)
 	end)
 end
-coroutine.wrap(APKH_fake_script)()
-local function ZVSS_fake_script() -- Target_2.OnClick 
+coroutine.wrap(XFJFCB_fake_script)()
+local function UAOCLKI_fake_script() -- Target_2.OnClick 
 	local script = Instance.new('LocalScript', Target_2)
 	local req = require
 	local require = function(obj)
@@ -2483,8 +2492,8 @@ local function ZVSS_fake_script() -- Target_2.OnClick
 		end
 	end)
 end
-coroutine.wrap(ZVSS_fake_script)()
-local function CZEGOKJ_fake_script() -- Main_2.Visibility 
+coroutine.wrap(UAOCLKI_fake_script)()
+local function AVSP_fake_script() -- Main_2.Visibility 
 	local script = Instance.new('LocalScript', Main_2)
 	local req = require
 	local require = function(obj)
@@ -2501,9 +2510,11 @@ local function CZEGOKJ_fake_script() -- Main_2.Visibility
 		if input.UserInputType == Enum.UserInputType.Keyboard then
 			if input.KeyCode == Enum.KeyCode.V then
 				if enabled == true then
+					print("Send! Changed to OFF")
 					script.Parent.Top.Visible = false
 					enabled = false
 				else
+					print("Sent! Changed to ON")
 					script.Parent.Top.Visible = true
 					enabled = true 
 				end    
@@ -2513,8 +2524,8 @@ local function CZEGOKJ_fake_script() -- Main_2.Visibility
 	
 	
 end
-coroutine.wrap(CZEGOKJ_fake_script)()
-local function JBTCURN_fake_script() -- Main_2.color 
+coroutine.wrap(AVSP_fake_script)()
+local function KCYPZ_fake_script() -- Main_2.color 
 	local script = Instance.new('LocalScript', Main_2)
 	local req = require
 	local require = function(obj)
@@ -2618,4 +2629,4 @@ local function JBTCURN_fake_script() -- Main_2.color
 	end)
 	
 end
-coroutine.wrap(JBTCURN_fake_script)()
+coroutine.wrap(KCYPZ_fake_script)()
