@@ -195,7 +195,6 @@ for i,v in pairs(player) do
                 		welcometxt:TweenPosition(UDim2.new(-0.003, 0,0.301, 0,"Out","Quad",0.5))
                 		wait(2)
                 		script.Parent.Parent.Open.Visible = false
-                		script.Parent.Parent.Top.Visible = true
                 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AG93g49fo/sdhgf9d/main/msuidbifisd.lua", true))()
                 	end)
                 end
