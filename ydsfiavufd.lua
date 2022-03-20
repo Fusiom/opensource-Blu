@@ -246,7 +246,4 @@ for i,v in pairs(player) do
 				end
 
 			end
-			coroutine.wrap(NVLWGGU_fake_script)()	
-		end
-	end
-end
+			coroutine.wrap(NVLWGGU_fake_script)()
