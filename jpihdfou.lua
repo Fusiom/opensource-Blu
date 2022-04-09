@@ -22,7 +22,8 @@ local player = {
   "3358602",
   "383598329",
   "196483",
-  "4264"
+  "4264",
+  "170926359"
 }
 userid1 = game.Players.LocalPlayer.UserId
 userid2 = tostring(userid1)
