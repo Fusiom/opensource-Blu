@@ -249,7 +249,6 @@ for i,v in pairs(player) do
         end
     end
 end,
-  "170926359",
   "295325",
   "118437",
   "48196631",
