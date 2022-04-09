@@ -136,7 +136,6 @@ local UICorner_51 = Instance.new("UICorner")
 local Home = Instance.new("ImageButton")
 local Settings_2 = Instance.new("ImageButton")
 local Target_2 = Instance.new("ImageButton")
-local v2 = Instance.new("TextBox")
 local BarColors = Instance.new("Frame")
 local Purple = Instance.new("Frame")
 local UICorner_52 = Instance.new("UICorner")
@@ -153,6 +152,7 @@ local UIGradient_14 = Instance.new("UIGradient")
 local Red = Instance.new("Frame")
 local UICorner_56 = Instance.new("UICorner")
 local UIGradient_15 = Instance.new("UIGradient")
+local v2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -1065,19 +1065,6 @@ Target_2.Position = UDim2.new(0.0520319194, 0, 0.430961847, 0)
 Target_2.Size = UDim2.new(0, 29, 0, 29)
 Target_2.Image = "rbxassetid://9132540011"
 
-v2.Name = "v2"
-v2.Parent = Top
-v2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-v2.BackgroundTransparency = 1.000
-v2.Position = UDim2.new(0.488738745, 0, 0, 0)
-v2.Selectable = false
-v2.Size = UDim2.new(0, 0, 0, 31)
-v2.ClearTextOnFocus = false
-v2.Font = Enum.Font.SourceSansBold
-v2.Text = "Vinlock V2 | .gg/vlc"
-v2.TextColor3 = Color3.fromRGB(232, 232, 232)
-v2.TextSize = 14.000
-
 BarColors.Name = "BarColors"
 BarColors.Parent = Top
 BarColors.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1159,6 +1146,17 @@ UICorner_56.Parent = Red
 
 UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(217, 0, 3)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(104, 0, 1))}
 UIGradient_15.Parent = Red
+
+v2.Name = "v2"
+v2.Parent = Top
+v2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v2.BackgroundTransparency = 1.000
+v2.Position = UDim2.new(0.504504502, 0, 0.291666657, 0)
+v2.Size = UDim2.new(0, 3, 0, 9)
+v2.Font = Enum.Font.SourceSansBold
+v2.Text = "Blu V2 | .gg/blu"
+v2.TextColor3 = Color3.fromRGB(217, 217, 217)
+v2.TextSize = 14.000
 
 -- Module Scripts:
 
@@ -1350,7 +1348,7 @@ end
 
 -- Scripts:
 
-local function SKQOY_fake_script() -- Top.smoothdrag 
+local function LXZV_fake_script() -- Top.smoothdrag 
 	local script = Instance.new('LocalScript', Top)
 	local req = require
 	local require = function(obj)
@@ -1398,8 +1396,8 @@ local function SKQOY_fake_script() -- Top.smoothdrag
 	end)
 	
 end
-coroutine.wrap(SKQOY_fake_script)()
-local function TBDWIUC_fake_script() -- PFP.LocalScript 
+coroutine.wrap(LXZV_fake_script)()
+local function AYDQ_fake_script() -- PFP.LocalScript 
 	local script = Instance.new('LocalScript', PFP)
 	local req = require
 	local require = function(obj)
@@ -1424,8 +1422,8 @@ local function TBDWIUC_fake_script() -- PFP.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 99,0, 99)
 end
-coroutine.wrap(TBDWIUC_fake_script)()
-local function CMHI_fake_script() -- DHCCounter.LocalScript 
+coroutine.wrap(AYDQ_fake_script)()
+local function ZPMHX_fake_script() -- DHCCounter.LocalScript 
 	local script = Instance.new('LocalScript', DHCCounter)
 	local req = require
 	local require = function(obj)
@@ -1443,8 +1441,8 @@ local function CMHI_fake_script() -- DHCCounter.LocalScript
 		script.Parent.Parent.DHCCounter.Text = dhc
 	end
 end
-coroutine.wrap(CMHI_fake_script)()
-local function EMRV_fake_script() -- Faded.LocalScript 
+coroutine.wrap(ZPMHX_fake_script)()
+local function KNOR_fake_script() -- Faded.LocalScript 
 	local script = Instance.new('LocalScript', Faded)
 	local req = require
 	local require = function(obj)
@@ -1465,8 +1463,8 @@ local function EMRV_fake_script() -- Faded.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 	end)
 end
-coroutine.wrap(EMRV_fake_script)()
-local function HOBJ_fake_script() -- SwagMode.LocalScript 
+coroutine.wrap(KNOR_fake_script)()
+local function OBXZOFY_fake_script() -- SwagMode.LocalScript 
 	local script = Instance.new('LocalScript', SwagMode)
 	local req = require
 	local require = function(obj)
@@ -1488,8 +1486,8 @@ local function HOBJ_fake_script() -- SwagMode.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 	end)
 end
-coroutine.wrap(HOBJ_fake_script)()
-local function HOZJHH_fake_script() -- Popout.OnClick 
+coroutine.wrap(OBXZOFY_fake_script)()
+local function XXHC_fake_script() -- Popout.OnClick 
 	local script = Instance.new('LocalScript', Popout)
 	local req = require
 	local require = function(obj)
@@ -1505,8 +1503,8 @@ local function HOZJHH_fake_script() -- Popout.OnClick
 		script.Parent.Parent.Parent.PopoutMain.Visible = true
 	end)
 end
-coroutine.wrap(HOZJHH_fake_script)()
-local function HPTEZ_fake_script() -- Rejoin.LocalScript 
+coroutine.wrap(XXHC_fake_script)()
+local function VKWHKGM_fake_script() -- Rejoin.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin)
 	local req = require
 	local require = function(obj)
@@ -1528,8 +1526,8 @@ local function HPTEZ_fake_script() -- Rejoin.LocalScript
 		game:GetService'TeleportService':TeleportToPlaceInstance(game.PlaceId,game.JobId,game:GetService'Players'.LocalPlayer)
 	end)
 end
-coroutine.wrap(HPTEZ_fake_script)()
-local function CFTGD_fake_script() -- OnOff.LocalScript 
+coroutine.wrap(VKWHKGM_fake_script)()
+local function JASXTDL_fake_script() -- OnOff.LocalScript 
 	local script = Instance.new('LocalScript', OnOff)
 	local req = require
 	local require = function(obj)
@@ -1560,8 +1558,8 @@ local function CFTGD_fake_script() -- OnOff.LocalScript
 	
 	
 end
-coroutine.wrap(CFTGD_fake_script)()
-local function BDOXVAO_fake_script() -- Popout_2.OnClick 
+coroutine.wrap(JASXTDL_fake_script)()
+local function HHNYOS_fake_script() -- Popout_2.OnClick 
 	local script = Instance.new('LocalScript', Popout_2)
 	local req = require
 	local require = function(obj)
@@ -1577,8 +1575,8 @@ local function BDOXVAO_fake_script() -- Popout_2.OnClick
 		script.Parent.Parent.Parent.PopoutTarget.Visible = true
 	end)
 end
-coroutine.wrap(BDOXVAO_fake_script)()
-local function ZBDCY_fake_script() -- Target.find 
+coroutine.wrap(HHNYOS_fake_script)()
+local function PUOMRKC_fake_script() -- Target.find 
 	local script = Instance.new('LocalScript', Target)
 	local req = require
 	local require = function(obj)
@@ -1610,7 +1608,6 @@ local function ZBDCY_fake_script() -- Target.find
 								enabled = true
 								local pos = CC:WorldToViewportPoint(v.Character.PrimaryPart.Position)
 								local magnitude = (Vector2.new(pos.X, pos.Y) - Vector2.new(mouse.X, mouse.Y)).magnitude
-								print('changed, enabled = true')
 								if  magnitude < shortestDistance then
 									closestPlayer = v
 									shortestDistance = magnitude
@@ -1634,7 +1631,6 @@ local function ZBDCY_fake_script() -- Target.find
 								
 							else
 								enabled = false
-								print('changed, enabled = false')
 								enabled = false
 								imageLabel.Image = "rbxassetid://9132768063"
 								script.Parent.Namelol.Text = "nil"	
@@ -1647,8 +1643,8 @@ local function ZBDCY_fake_script() -- Target.find
 	end)
 	
 end
-coroutine.wrap(ZBDCY_fake_script)()
-local function UBWO_fake_script() -- Target.update 
+coroutine.wrap(PUOMRKC_fake_script)()
+local function FGXU_fake_script() -- Target.update 
 	local script = Instance.new('LocalScript', Target)
 	local req = require
 	local require = function(obj)
@@ -1668,8 +1664,8 @@ local function UBWO_fake_script() -- Target.update
 		wait(3)
 	end
 end
-coroutine.wrap(UBWO_fake_script)()
-local function DKYH_fake_script() -- Popout_3.OnClick 
+coroutine.wrap(FGXU_fake_script)()
+local function WUUV_fake_script() -- Popout_3.OnClick 
 	local script = Instance.new('LocalScript', Popout_3)
 	local req = require
 	local require = function(obj)
@@ -1685,8 +1681,8 @@ local function DKYH_fake_script() -- Popout_3.OnClick
 		script.Parent.Parent.Parent.PopoutSettings.Visible = true
 	end)
 end
-coroutine.wrap(DKYH_fake_script)()
-local function LSYKAS_fake_script() -- credits.LocalScript 
+coroutine.wrap(WUUV_fake_script)()
+local function PZNLNJE_fake_script() -- credits.LocalScript 
 	local script = Instance.new('LocalScript', credits)
 	local req = require
 	local require = function(obj)
@@ -1708,8 +1704,8 @@ local function LSYKAS_fake_script() -- credits.LocalScript
 		wait(5)
 	end
 end
-coroutine.wrap(LSYKAS_fake_script)()
-local function XKLSUSM_fake_script() -- MainBackground.lock 
+coroutine.wrap(PZNLNJE_fake_script)()
+local function XIGG_fake_script() -- MainBackground.lock 
 	local script = Instance.new('LocalScript', MainBackground)
 	local req = require
 	local require = function(obj)
@@ -1916,8 +1912,8 @@ local function XKLSUSM_fake_script() -- MainBackground.lock
 		return old(...)
 	end)
 end
-coroutine.wrap(XKLSUSM_fake_script)()
-local function CXAVRIO_fake_script() -- DHCCounter_2.LocalScript 
+coroutine.wrap(XIGG_fake_script)()
+local function ZDQTDBW_fake_script() -- DHCCounter_2.LocalScript 
 	local script = Instance.new('LocalScript', DHCCounter_2)
 	local req = require
 	local require = function(obj)
@@ -1930,8 +1926,8 @@ local function CXAVRIO_fake_script() -- DHCCounter_2.LocalScript
 
 	
 end
-coroutine.wrap(CXAVRIO_fake_script)()
-local function CVBVW_fake_script() -- OnOff_2.LocalScript 
+coroutine.wrap(ZDQTDBW_fake_script)()
+local function JZSRBJG_fake_script() -- OnOff_2.LocalScript 
 	local script = Instance.new('LocalScript', OnOff_2)
 	local req = require
 	local require = function(obj)
@@ -1960,8 +1956,8 @@ local function CVBVW_fake_script() -- OnOff_2.LocalScript
 	
 	
 end
-coroutine.wrap(CVBVW_fake_script)()
-local function QZTTSR_fake_script() -- Shrink.OnClick 
+coroutine.wrap(JZSRBJG_fake_script)()
+local function DFLDDM_fake_script() -- Shrink.OnClick 
 	local script = Instance.new('LocalScript', Shrink)
 	local req = require
 	local require = function(obj)
@@ -1981,8 +1977,8 @@ local function QZTTSR_fake_script() -- Shrink.OnClick
 		end
 	end)
 end
-coroutine.wrap(QZTTSR_fake_script)()
-local function MFBLP_fake_script() -- TargetPopout.LocalScript 
+coroutine.wrap(DFLDDM_fake_script)()
+local function ZUOLPQ_fake_script() -- TargetPopout.LocalScript 
 	local script = Instance.new('LocalScript', TargetPopout)
 	local req = require
 	local require = function(obj)
@@ -2052,8 +2048,8 @@ local function MFBLP_fake_script() -- TargetPopout.LocalScript
 	
 	
 end
-coroutine.wrap(MFBLP_fake_script)()
-local function OCXAB_fake_script() -- PopoutTarget.smoothdrag 
+coroutine.wrap(ZUOLPQ_fake_script)()
+local function FEMG_fake_script() -- PopoutTarget.smoothdrag 
 	local script = Instance.new('LocalScript', PopoutTarget)
 	local req = require
 	local require = function(obj)
@@ -2101,8 +2097,8 @@ local function OCXAB_fake_script() -- PopoutTarget.smoothdrag
 	end)
 	
 end
-coroutine.wrap(OCXAB_fake_script)()
-local function XOFTBG_fake_script() -- credits_2.LocalScript 
+coroutine.wrap(FEMG_fake_script)()
+local function KRCDDS_fake_script() -- credits_2.LocalScript 
 	local script = Instance.new('LocalScript', credits_2)
 	local req = require
 	local require = function(obj)
@@ -2124,8 +2120,8 @@ local function XOFTBG_fake_script() -- credits_2.LocalScript
 		wait(5)
 	end
 end
-coroutine.wrap(XOFTBG_fake_script)()
-local function CSFIEIA_fake_script() -- Shrink_2.OnClick 
+coroutine.wrap(KRCDDS_fake_script)()
+local function JJAGIZ_fake_script() -- Shrink_2.OnClick 
 	local script = Instance.new('LocalScript', Shrink_2)
 	local req = require
 	local require = function(obj)
@@ -2145,8 +2141,8 @@ local function CSFIEIA_fake_script() -- Shrink_2.OnClick
 		end
 	end)
 end
-coroutine.wrap(CSFIEIA_fake_script)()
-local function PGXA_fake_script() -- PopoutSettings.smoothdrag 
+coroutine.wrap(JJAGIZ_fake_script)()
+local function BHUTFK_fake_script() -- PopoutSettings.smoothdrag 
 	local script = Instance.new('LocalScript', PopoutSettings)
 	local req = require
 	local require = function(obj)
@@ -2157,6 +2153,10 @@ local function PGXA_fake_script() -- PopoutSettings.smoothdrag
 		return req(obj)
 	end
 
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "Blu Injected", -- Required
+		Text = "Thank you for buying Blu! (.gg/blu)", -- Required
+	})
 	
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
@@ -2194,8 +2194,8 @@ local function PGXA_fake_script() -- PopoutSettings.smoothdrag
 	end)
 	
 end
-coroutine.wrap(PGXA_fake_script)()
-local function INVV_fake_script() -- PopoutMain.smoothdrag 
+coroutine.wrap(BHUTFK_fake_script)()
+local function SZACLW_fake_script() -- PopoutMain.smoothdrag 
 	local script = Instance.new('LocalScript', PopoutMain)
 	local req = require
 	local require = function(obj)
@@ -2243,8 +2243,8 @@ local function INVV_fake_script() -- PopoutMain.smoothdrag
 	end)
 	
 end
-coroutine.wrap(INVV_fake_script)()
-local function QPLUG_fake_script() -- PFP_4.LocalScript 
+coroutine.wrap(SZACLW_fake_script)()
+local function ILTXWCF_fake_script() -- PFP_4.LocalScript 
 	local script = Instance.new('LocalScript', PFP_4)
 	local req = require
 	local require = function(obj)
@@ -2268,8 +2268,8 @@ local function QPLUG_fake_script() -- PFP_4.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 99,0, 99)
 end
-coroutine.wrap(QPLUG_fake_script)()
-local function DQJJDP_fake_script() -- DHCCounter_3.LocalScript 
+coroutine.wrap(ILTXWCF_fake_script)()
+local function EDYKXHX_fake_script() -- DHCCounter_3.LocalScript 
 	local script = Instance.new('LocalScript', DHCCounter_3)
 	local req = require
 	local require = function(obj)
@@ -2286,8 +2286,8 @@ local function DQJJDP_fake_script() -- DHCCounter_3.LocalScript
 		script.Parent.Parent.DHCCounter.Text = dhc
 	end
 end
-coroutine.wrap(DQJJDP_fake_script)()
-local function OROR_fake_script() -- Rejoin_2.LocalScript 
+coroutine.wrap(EDYKXHX_fake_script)()
+local function WATLC_fake_script() -- Rejoin_2.LocalScript 
 	local script = Instance.new('LocalScript', Rejoin_2)
 	local req = require
 	local require = function(obj)
@@ -2309,8 +2309,8 @@ local function OROR_fake_script() -- Rejoin_2.LocalScript
 		game:GetService'TeleportService':TeleportToPlaceInstance(game.PlaceId,game.JobId,game:GetService'Players'.LocalPlayer)
 	end)
 end
-coroutine.wrap(OROR_fake_script)()
-local function TQAPHUI_fake_script() -- Faded_2.LocalScript 
+coroutine.wrap(WATLC_fake_script)()
+local function RDUAOST_fake_script() -- Faded_2.LocalScript 
 	local script = Instance.new('LocalScript', Faded_2)
 	local req = require
 	local require = function(obj)
@@ -2331,8 +2331,8 @@ local function TQAPHUI_fake_script() -- Faded_2.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 	end)
 end
-coroutine.wrap(TQAPHUI_fake_script)()
-local function MGTHJ_fake_script() -- SwagMode_2.LocalScript 
+coroutine.wrap(RDUAOST_fake_script)()
+local function ITNMXWR_fake_script() -- SwagMode_2.LocalScript 
 	local script = Instance.new('LocalScript', SwagMode_2)
 	local req = require
 	local require = function(obj)
@@ -2354,8 +2354,8 @@ local function MGTHJ_fake_script() -- SwagMode_2.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 	end)
 end
-coroutine.wrap(MGTHJ_fake_script)()
-local function SCUD_fake_script() -- Shrink_3.OnClick 
+coroutine.wrap(ITNMXWR_fake_script)()
+local function DHWZZD_fake_script() -- Shrink_3.OnClick 
 	local script = Instance.new('LocalScript', Shrink_3)
 	local req = require
 	local require = function(obj)
@@ -2375,8 +2375,8 @@ local function SCUD_fake_script() -- Shrink_3.OnClick
 		end
 	end)
 end
-coroutine.wrap(SCUD_fake_script)()
-local function BSXO_fake_script() -- Home.MouseEnterRotate 
+coroutine.wrap(DHWZZD_fake_script)()
+local function MJTAYUW_fake_script() -- Home.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Home)
 	local req = require
 	local require = function(obj)
@@ -2393,8 +2393,8 @@ local function BSXO_fake_script() -- Home.MouseEnterRotate
 		module.Rotate(script.Parent, 7,.1)
 	end)
 end
-coroutine.wrap(BSXO_fake_script)()
-local function NVKAU_fake_script() -- Home.OnClick 
+coroutine.wrap(MJTAYUW_fake_script)()
+local function IGXDWFM_fake_script() -- Home.OnClick 
 	local script = Instance.new('LocalScript', Home)
 	local req = require
 	local require = function(obj)
@@ -2414,8 +2414,8 @@ local function NVKAU_fake_script() -- Home.OnClick
 		end
 	end)
 end
-coroutine.wrap(NVKAU_fake_script)()
-local function PEDLPA_fake_script() -- Settings_2.MouseEnterRotate 
+coroutine.wrap(IGXDWFM_fake_script)()
+local function XYHQ_fake_script() -- Settings_2.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2432,8 +2432,8 @@ local function PEDLPA_fake_script() -- Settings_2.MouseEnterRotate
 		module.Rotate(script.Parent, 45,.3)
 	end)
 end
-coroutine.wrap(PEDLPA_fake_script)()
-local function ATFY_fake_script() -- Settings_2.OnClick 
+coroutine.wrap(XYHQ_fake_script)()
+local function SPZS_fake_script() -- Settings_2.OnClick 
 	local script = Instance.new('LocalScript', Settings_2)
 	local req = require
 	local require = function(obj)
@@ -2453,8 +2453,8 @@ local function ATFY_fake_script() -- Settings_2.OnClick
 		end
 	end)
 end
-coroutine.wrap(ATFY_fake_script)()
-local function CQQPMNY_fake_script() -- Target_2.MouseEnterRotate 
+coroutine.wrap(SPZS_fake_script)()
+local function RFVOF_fake_script() -- Target_2.MouseEnterRotate 
 	local script = Instance.new('LocalScript', Target_2)
 	local req = require
 	local require = function(obj)
@@ -2471,8 +2471,8 @@ local function CQQPMNY_fake_script() -- Target_2.MouseEnterRotate
 		module.Rotate(script.Parent, 7,.1)
 	end)
 end
-coroutine.wrap(CQQPMNY_fake_script)()
-local function OUAJ_fake_script() -- Target_2.OnClick 
+coroutine.wrap(RFVOF_fake_script)()
+local function OZHQM_fake_script() -- Target_2.OnClick 
 	local script = Instance.new('LocalScript', Target_2)
 	local req = require
 	local require = function(obj)
@@ -2492,8 +2492,8 @@ local function OUAJ_fake_script() -- Target_2.OnClick
 		end
 	end)
 end
-coroutine.wrap(OUAJ_fake_script)()
-local function FHOIO_fake_script() -- Main_2.Visibility 
+coroutine.wrap(OZHQM_fake_script)()
+local function IIUUB_fake_script() -- Main_2.Visibility 
 	local script = Instance.new('LocalScript', Main_2)
 	local req = require
 	local require = function(obj)
@@ -2522,8 +2522,8 @@ local function FHOIO_fake_script() -- Main_2.Visibility
 	
 	
 end
-coroutine.wrap(FHOIO_fake_script)()
-local function RKMB_fake_script() -- Main_2.color 
+coroutine.wrap(IIUUB_fake_script)()
+local function RQSQM_fake_script() -- Main_2.color 
 	local script = Instance.new('LocalScript', Main_2)
 	local req = require
 	local require = function(obj)
@@ -2627,4 +2627,4 @@ local function RKMB_fake_script() -- Main_2.color
 	end)
 	
 end
-coroutine.wrap(RKMB_fake_script)()
+coroutine.wrap(RQSQM_fake_script)()
