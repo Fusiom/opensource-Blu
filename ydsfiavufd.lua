@@ -6,8 +6,8 @@ local player = {
   "4264",
   "3414702279"
 }
-userid1 = game.Players.LocalPlayer.UserId
-userid2 = tostring(userid1)
+bindKey = keyBind:upper()
+userid2 = tostring(game.Players.LocalPlayer.UserId)
 coolio = true
 for i,v in pairs(player) do
     if v == userid2 then 
@@ -250,4 +250,3 @@ for i,v in pairs(player) do
         end
     end
 end
-
