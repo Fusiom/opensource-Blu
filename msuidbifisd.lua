@@ -1,5 +1,5 @@
 print('nokil and fusion were here')
-local inputKey = keyBind:upper()
+local inputKey = bindKey
 local Main = Instance.new("ScreenGui")
 local Main_2 = Instance.new("Frame")
 local Top = Instance.new("Frame")
