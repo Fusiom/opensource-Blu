@@ -1,4 +1,5 @@
 print('nokil and fusion were here')
+local inputKey = keyBind:upper()
 local Main = Instance.new("ScreenGui")
 local Main_2 = Instance.new("Frame")
 local Top = Instance.new("Frame")
@@ -1542,7 +1543,7 @@ local function AXGA_fake_script() -- OnOff.LocalScript
 	local userInputService = game:GetService("UserInputService")
 	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
 		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.Q then
+			if input.KeyCode == Enum.KeyCode[inputKey] then
 				if enabled == true then
 					script.Parent.Parent.OnOff.Text = "Off"
 					enabled = false
@@ -1594,7 +1595,7 @@ local function MMSB_fake_script() -- Target.find
 	local v = workspace.Parent.Players
 	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
 		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.Q then
+			if input.KeyCode == Enum.KeyCode[inputKey] then
 				local closestplr
 				local closestpos = math.huge
 				for i,v in pairs(game.Players:GetPlayers()) do
@@ -1705,6 +1706,7 @@ local function PVIJH_fake_script() -- MainBackground.lock
 
 	-- 54+ 0.129145
 	-- 12- 0.11934
+	
 	local CC = game:GetService'Workspace'.CurrentCamera
 	local Plr
 	local enabled = false
@@ -1833,33 +1835,37 @@ local function PVIJH_fake_script() -- MainBackground.lock
 		guimain[player.Name]:Destroy()
 	end)   
 	
-	mouse.KeyDown:Connect(function(k)
-		if k ~= "q" then return end
-		if enabled then
-			enabled = false
-			-- guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-		else
-			enabled = true 
-			placemarker.Anchored = true
-			placemarker.CanCollide = false
-			placemarker.Size = Vector3.new(0.1, 0.1, 0.1)
-			placemarker.Transparency = 10
-			if rgbcolor == "red" then
-				makemarker(placemarker, placemarker, Color3.fromRGB(220, 0, 3), 0.55, 0)
-			elseif rgbcolor == "orange" then
-				makemarker(placemarker, placemarker, Color3.fromRGB(220, 151, 12), 0.55, 0)
-			elseif rgbcolor == "yellow" then
-				makemarker(placemarker, placemarker, Color3.fromRGB(220, 213, 10), 0.55, 0)
-			elseif rgbcolor == "green" then
-				makemarker(placemarker, placemarker, Color3.fromRGB(33, 220, 40), 0.55, 0)
-			elseif rgbcolor == "blue" then
-				makemarker(placemarker, placemarker, Color3.fromRGB(24, 34, 220), 0.55, 0)
-			elseif rgbcolor == "purple" then
-				makemarker(placemarker, placemarker, Color3.fromRGB(141, 4, 220), 0.55, 0)
+	local userInputService = game:GetService("UserInputService")
+	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == Enum.KeyCode[inputKey] then
+			if enabled then
+				enabled = false
+				-- guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+			else
+				enabled = true 
+				placemarker.Anchored = true
+				placemarker.CanCollide = false
+				placemarker.Size = Vector3.new(0.1, 0.1, 0.1)
+				placemarker.Transparency = 10
+				if rgbcolor == "red" then
+					makemarker(placemarker, placemarker, Color3.fromRGB(220, 0, 3), 0.55, 0)
+				elseif rgbcolor == "orange" then
+					makemarker(placemarker, placemarker, Color3.fromRGB(220, 151, 12), 0.55, 0)
+				elseif rgbcolor == "yellow" then
+					makemarker(placemarker, placemarker, Color3.fromRGB(220, 213, 10), 0.55, 0)
+				elseif rgbcolor == "green" then
+					makemarker(placemarker, placemarker, Color3.fromRGB(33, 220, 40), 0.55, 0)
+				elseif rgbcolor == "blue" then
+					makemarker(placemarker, placemarker, Color3.fromRGB(24, 34, 220), 0.55, 0)
+				elseif rgbcolor == "purple" then
+					makemarker(placemarker, placemarker, Color3.fromRGB(141, 4, 220), 0.55, 0)
+				end
+				Plr = getClosestPlayerToCursor()
 			end
-			Plr = getClosestPlayerToCursor()
+				--guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)   
+			end
 		end
-			--guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)   
 	end)
 	
 	function getClosestPlayerToCursor()
@@ -1929,7 +1935,7 @@ local function MMKWWY_fake_script() -- OnOff_2.LocalScript
 	local userInputService = game:GetService("UserInputService")
 	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
 		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.Q then
+			if input.KeyCode == Enum.KeyCode[inputKey] then
 				if enabled == true then
 					script.Parent.Parent.OnOff.Text = "Off"
 					enabled = false
@@ -1985,7 +1991,7 @@ local function VIAI_fake_script() -- TargetPopout.script
 	local v = workspace.Parent.Players
 	userInputService.InputBegan:Connect(function(input,gameProcessedEvent)
 		if input.UserInputType == Enum.UserInputType.Keyboard then
-			if input.KeyCode == Enum.KeyCode.Q then
+			if input.KeyCode == Enum.KeyCode[inputKey] then
 				local closestplr
 				local closestpos = math.huge
 				for i,v in pairs(game.Players:GetPlayers()) do
